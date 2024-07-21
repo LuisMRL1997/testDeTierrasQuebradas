@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test de Personalidad: ¿Qué clase de mago eres?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" id="welcome-container">
+        <h1>Bienvenido al Test de Personalidad: ¿Qué clase de mago eres?</h1>
+        <form id="welcome-form">
+            <label for="name">Por favor, ingresa tu nombre:</label>
+            <input type="text" id="name" name="name" required aria-required="true">
+            <button type="submit">Continuar</button>
+        </form>
+    </div>
+    
+    <div class="container" id="quiz-container" style="display: none;">
+        <h1 id="quiz-title">Test de Personalidad: ¿Qué clase de mago eres?</h1>
+        <form id="quiz-form">
+            <!-- Las preguntas serán generadas aquí mediante JavaScript -->
+        </form>
+        <button id="submit-btn" disabled>Enviar</button>
+    </div>
+    <div class="container" id="result-container" style="display: none;">
+        <h1 id="result-title">Resultados</h1>
+        <div id="result"></div>
+        <button id="restart-btn">Volver a empezar</button>
+    </div>   
+    <script src="script.js"></script>
+</body>
+</html>
+
