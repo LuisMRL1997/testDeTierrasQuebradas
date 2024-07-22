@@ -68,16 +68,17 @@ label {
 
 .question label {
     display: block;
-    margin-bottom: 10px;
-    padding-left: 20px;
+    margin-bottom: 15px; /* Incrementado para mayor espacio entre opciones */
+    padding-left: 30px; /* Incrementado para acomodar el número */
     position: relative;
 }
 
-.question label input[type="radio"] {
+.question label span {
     position: absolute;
     left: 0;
-    top: 0;
-    margin: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 10px; /* Espacio entre el número y el botón de radio */
 }
 
 button {

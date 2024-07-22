@@ -1,274 +1,468 @@
 const questions = [
     {
-        text: "Cuando te enfrentas a un conflicto personal, ¿qué te guía en la toma de decisiones?",
+        text: "Cuando tienes un desacuerdo con un amigo, ¿como intentas resolverlo?",
         options: [
-            { text: "Intento encontrar una solución que sea justa para todas las partes involucradas, buscando armonía y equilibrio.", points: { Virtud: 7, Firmamento: 3, Destrucción: 1, Abismo: 5 } },
-            { text: "Me enfoco en buscar nuevas perspectivas y soluciones creativas que puedan sorprender a todos.", points: { Creación: 7, Liberación: 5, Firmamento: 3, Dominación: 1 } },
-            { text: "Suelo seguir mi instinto y tomar decisiones rápidas para resolver el problema de manera eficiente.", points: { Liberación: 7, Firmamento: 5, Destrucción: 3, Abismo: 1 } },
-            { text: "Prefiero tomar el control de la situación y dirigir a otros hacia la resolución.", points: { Dominación: 7, Virtud: 5, Liberación: 3, Firmamento: 1 } }
+          {
+            text: "Intento resolverlo con calma, porque valoro nuestra amistad.",
+            points: { Virtud: 7, Firmamento: 5, Creación: 3, Abismo: 1 }
+          },
+          {
+            text: "No tengo problema en terminar amistades con quienes no puedo entenderme.",
+            points: { Abismo: 7, Liberación: 5, Pecado: 3, Destrucción: 1 }
+          },
+          {
+            text: "Prefiero dar tiempo para que ambos nos calmemos y podamos olvidar el problema antes de retomar la conversación.",
+            points: { Creación: 7, Virtud: 5, Firmamento: 3, Abismo: 1 }
+          },
+          {
+            text: "Enfrento el problema directamente con mi amigo, buscando una solución a través de la conversación.",
+            points: { Liberación: 7, Firmamento: 5, Virtud: 3, Pecado: 1 }
+          },
+          {
+            text: "La forma de resolverlo depende de la gravedad del desacuerdo.",
+            points: { Pecado: 7, Destrucción: 5, Abismo: 3, Virtud: 1 }
+          },
+          {
+            text: "Analizo la situación, me disculpo si es necesario o pido una disculpa.",
+            points: { Firmamento: 7, Creación: 5, Liberación: 3, Abismo: 1 }
+          }
         ]
     },
-    {
-        text: "¿Qué te motiva a la hora de iniciar un nuevo proyecto?",
-        options: [
-            { text: "La oportunidad de aprender algo nuevo y expandir mis conocimientos.", points: { Creación: 7, Firmamento: 5, Virtud: 3, Destrucción: 1 } },
-            { text: "El deseo de ayudar a otros y mejorar la comunidad.", points: { Virtud: 7, Firmamento: 5, Liberación: 3, Abismo: 1 } },
-            { text: "La posibilidad de desafiar el statu quo y crear algo innovador.", points: { Liberación: 7, Creación: 5, Abismo: 3, Dominación: 1 } },
-            { text: "La necesidad de obtener resultados rápidos y efectivos.", points: { Destrucción: 7, Dominación: 5, Firmamento: 3, Liberación: 1 } }
-        ]
-    },
-    {
+        {
+            text: "¿Qué te motiva a iniciar un nuevo proyecto?",
+            options: [
+              {
+                text: "El entusiasmo por descubrir nuevas habilidades y avanzar en mi carrera.",
+                points: { Creación: 7, Virtud: 5, Liberación: 3, Abismo: 1 }
+              },
+              {
+                text: "Innovar y hacer las cosas de manera diferente.",
+                points: { Destrucción: 7, Liberación: 5, Creación: 3, Firmamento: 1 }
+              },
+              {
+                text: "La oportunidad de adquirir experiencia práctica y aplicar un plan estratégico para alcanzar mis objetivos.",
+                points: { Firmamento: 7, Destrucción: 5, Creación: 3, Liberación: 1 }
+              },
+              {
+                text: "La posibilidad de contribuir económicamente al bienestar de mi familia.",
+                points: { Virtud: 7, Creación: 5, Firmamento: 3, Abismo: 1 }
+              },            
+              {
+                text: "El incentivo económico y los beneficios materiales.",
+                points: { Pecado: 7, Abismo: 5, Firmamento: 3, Creación: 1 }
+              },
+              {
+                text: "Enfrentarme a mis inseguridades para salir de mi zona de confort y explorar nuevas oportunidades.",
+                points: { Liberación: 7, Firmamento: 5, Creación: 3, Abismo: 1 }
+            }
+            ]
+        },          
+      {
         text: "¿Cómo describes tu estilo de trabajo?",
         options: [
-            { text: "Organizado y meticuloso, me gusta seguir un plan detallado.", points: { Firmamento: 7, Virtud: 5, Dominación: 3, Creación: 1 } },
-            { text: "Flexible y adaptativo, prefiero improvisar según las circunstancias.", points: { Liberación: 7, Abismo: 5, Creación: 3, Destrucción: 1 } },
-            { text: "Enérgico y proactivo, tomo la iniciativa rápidamente.", points: { Destrucción: 7, Dominación: 5, Firmamento: 3, Liberación: 1 } },
-            { text: "Creativo y visionario, me gusta explorar nuevas ideas.", points: { Creación: 7, Liberación: 5, Abismo: 3, Virtud: 1 } }
+          {
+            text: "Encuentro soluciones rápidas y efectivas usando mis habilidades.",
+            points: { Creación: 7, Firmamento: 5, Virtud: 3, Pecado: 1 }
+          },
+          {
+            text: "Hago solo lo necesario para cumplir con los objetivos y evito involucrarme más.",
+            points: { Pecado: 7, Destrucción: 5, Liberación: 3, Creación: 1 }
+          },
+          {
+            text: "Reviso cada detalle con cuidado para asegurar que todo esté perfecto.",
+            points: { Firmamento: 7, Creación: 5, Virtud: 3, Abismo: 1 }
+          },          
+          {
+            text: "Disfruto trabajando en equipo y valoro la colaboración.",
+            points: { Liberación: 7, Creación: 5, Firmamento: 3, Destrucción: 1 }
+          },
+          {
+            text: "Actúo con honestidad y me esfuerzo por alcanzar la excelencia en todo lo que hago.",
+            points: { Virtud: 7, Firmamento: 5, Creación: 3, Abismo: 1 }
+          },
+          {
+            text: "Tomo la iniciativa y dirijo el proyecto según mi visión.",
+            points: { Dominación: 7, Firmamento: 5, Abismo: 3, Pecado: 1 }
+          }
         ]
-    },
-    {
+      },      
+      {
         text: "Cuando trabajas en equipo, ¿cuál es tu rol habitual?",
         options: [
-            { text: "El líder, guiando y motivando a los demás.", points: { Dominación: 7, Firmamento: 5, Destrucción: 3, Virtud: 1 } },
-            { text: "El mediador, asegurando que todos se lleven bien.", points: { Virtud: 7, Firmamento: 5, Creación: 3, Abismo: 1 } },
-            { text: "El innovador, proponiendo nuevas ideas y enfoques.", points: { Creación: 7, Liberación: 5, Firmamento: 3, Destrucción: 1 } },
-            { text: "El ejecutor, llevando a cabo las tareas rápidamente.", points: { Destrucción: 7, Dominación: 5, Liberación: 3, Virtud: 1 } }
+          {
+            text: "Lidero el equipo, establezco metas y dirijo el proyecto hacia el éxito.",
+            points: { Dominación: 7, Firmamento: 5, Abismo: 3, Pecado: 1 }
+          },
+          {
+            text: "Colaboro activamente y ofrezco apoyo para que el equipo funcione bien.",
+            points: { Virtud: 7, Firmamento: 5, Creación: 3, Abismo: 1 }
+          },
+          {
+            text: "Busco soluciones y ayudo a resolver problemas cuando surgen.",
+            points: { Firmamento: 7, Virtud: 5, Creación: 3, Abismo: 1 }
+          },
+          {
+            text: "Sigo las instrucciones y me encargo de tareas específicas que se me asignan.",
+            points: { Creación: 7, Destrucción: 5, Liberación: 3, Creación: 1 }
+          },
+          {
+            text: "Suelo confiar más en mis propias habilidades, termino haciendo gran parte del trabajo en solitario.",
+            points: { Abismo: 7, Dominación: 5, Firmamento: 3, Pecado: 1 }
+          },
+          {
+            text: "Actúo como mediador para resolver conflictos y mantener la armonía en el equipo.",
+            points: { Liberación: 7, Firmamento: 5, Creación: 3, Abismo: 1 }
+          }
         ]
-    },
+      },
     {
         text: "¿Qué valoras más en una amistad?",
         options: [
-            { text: "Lealtad y confianza.", points: { Virtud: 7, Firmamento: 5, Dominación: 3, Abismo: 1 } },
-            { text: "Aventuras y diversión.", points: { Liberación: 7, Creación: 5, Destrucción: 3, Firmamento: 1 } },
-            { text: "Apoyo y comprensión.", points: { Firmamento: 7, Virtud: 5, Liberación: 3, Creación: 1 } },
-            { text: "Estímulo y competencia.", points: { Destrucción: 7, Dominación: 5, Creación: 3, Virtud: 1 } }
-        ]
-    },
-    {
-        text: "Cuando enfrentas un problema inesperado, ¿cómo reaccionas?",
-        options: [
-            { text: "Analizo la situación y busco una solución lógica.", points: { Firmamento: 7, Virtud: 5, Creación: 3, Destrucción: 1 } },
-            { text: "Confío en mi intuición y actúo rápidamente.", points: { Liberación: 7, Destrucción: 5, Abismo: 3, Dominación: 1 } },
-            { text: "Busco ayuda y consejo de otros.", points: { Virtud: 7, Firmamento: 5, Liberación: 3, Creación: 1 } },
-            { text: "Pienso fuera de la caja para encontrar una solución innovadora.", points: { Creación: 7, Liberación: 5, Firmamento: 3, Destrucción: 1 } }
+          {
+            text: "Lealtad y apoyo constante.",
+            points: { Virtud: 7, Pecado: 5, Firmamento: 3, Abismo: 1 }
+          },
+          {
+            text: "Superar desafíos juntos.",
+            points: { Liberación: 7, Destrucción: 5, Pecado: 3, Virtud: 1 }
+          },
+          {
+            text: "Compartir ideas y empezar proyectos juntos.",
+            points: { Creación: 7, Liberación: 5, Firmamento: 3, Abismo: 1 }
+          },
+          {
+            text: "Compartir gusto en común.",
+            points: { Destrucción: 7, Liberación: 5, Pecado: 3, Virtud: 1 }
+          },
+          {
+            text: "Tener compañía y con quién poder desahogarme.",
+            points: { Firmamento: 7, Creación: 5, Pecado: 3, Destrucción: 1 }
+          },
+          {
+            text: "Tener a alguien a quién pueda pedirle ayuda o favores.",
+            points: { Dominación: 7, Pecado: 5, Firmamento: 3, Liberación: 1 }
+          }
         ]
     },
     {
         text: "¿Qué actividad prefieres en tu tiempo libre?",
         options: [
-            { text: "Leer un buen libro o aprender algo nuevo.", points: { Creación: 7, Firmamento: 5, Virtud: 3, Destrucción: 1 } },
-            { text: "Salir con amigos y socializar.", points: { Liberación: 7, Virtud: 5, Creación: 3, Destrucción: 1 } },
-            { text: "Hacer deporte o alguna actividad física.", points: { Destrucción: 7, Dominación: 5, Liberación: 3, Firmamento: 1 } },
-            { text: "Reflexionar y meditar en un lugar tranquilo.", points: { Firmamento: 7, Abismo: 5, Creación: 3, Virtud: 1 } }
+          {
+            text: "Me gusta compartir momentos con mi familia y mis amigos.",
+            points: { Virtud: 7, Firmamento: 5, Creación: 3, Abismo: 1 }
+          },
+          {
+            text: "Disfruto de pasar tiempo solo, ya sea leyendo un buen libro o inmiscuyéndome en videojuegos.",
+            points: { Creación: 7, Firmamento: 5, Liberación: 3, Abismo: 1 }
+          },
+          {
+            text: "Disfruto de actividades encillas como ir al cine y también de grandes eventos como fiestas.",
+            points: { Firmamento: 7, Virtud: 5, Creación: 3, Pecado: 1 }
+          },
+          {
+            text: "Buscar formas de mejorar mis habilidades y competir en desafíos.",
+            points: { Abismo: 7, Destrucción: 5, Firmamento: 3, Dominación: 1 }
+          },
+          {
+            text: "Disfruto de hacer ejercicio y salir a un bar con mis amigos.",
+            points: { Liberación: 7, Creación: 5, Firmamento: 3, Destrucción: 1 }
+          },
+          {
+            text: "A veces pierdo mucho el tiempo en las redes sociales.",
+            points: { Destrucción: 7, Pecado: 5, Firmamento: 3, Liberación: 1 }
+          }
         ]
-    },
-    {
+      },      
+      {
         text: "¿Cómo manejas el estrés?",
         options: [
-            { text: "Busco actividades que me relajen y me ayuden a desconectar.", points: { Firmamento: 7, Virtud: 5, Creación: 3, Destrucción: 1 } },
-            { text: "Libero mi energía a través del ejercicio o una actividad física intensa.", points: { Destrucción: 7, Liberación: 5, Dominación: 3, Firmamento: 1 } },
-            { text: "Hablo con alguien de confianza sobre mis preocupaciones.", points: { Virtud: 7, Firmamento: 5, Liberación: 3, Abismo: 1 } },
-            { text: "Encuentro soluciones creativas para los problemas que me estresan.", points: { Creación: 7, Liberación: 5, Firmamento: 3, Destrucción: 1 } }
+          {
+            text: "Me sumerjo en actividades que me distraen y me alejan del problema.",
+            points: { Destrucción: 7, Firmamento: 5, Liberación: 3, Pecado: 1 }
+          },
+          {
+            text: "Intento mantener la calma y analizar la situación para encontrar una solución.",
+            points: { Firmamento: 7, Creación: 5, Dominación: 3, Abismo: 1 }
+          },
+          {
+            text: "Busco apoyo de amigos y familiares para desahogarme y recibir consejo.",
+            points: { Virtud: 7, Firmamento: 5, Creación: 3, Pecado: 1 }
+          },
+          {
+            text: "Enfrento los problemas directamente y me adapto a las circunstancias.",
+            points: { Liberación: 7, Firmamento: 5, Creación: 3, Destrucción: 1 }
+          },
+          {
+            text: "Me enfoco en resolver los problemas de manera práctica y eficiente.",
+            points: { Creación: 7, Firmamento: 5, Liberación: 3, Abismo: 1 }
+          },
+          {
+            text: "A veces me siento abrumado y prefiero evitar la situación si es posible.",
+            points: { Abismo: 7, Dominación: 5, Firmamento: 3, Destrucción: 1 }
+          }
         ]
-    },
-    {
+      },      
+      {
         text: "¿Qué tipo de películas prefieres?",
         options: [
-            { text: "Documentales o biográficas.", points: { Firmamento: 7, Virtud: 5, Creación: 3, Destrucción: 1 } },
-            { text: "Acción y aventura.", points: { Destrucción: 7, Liberación: 5, Dominación: 3, Creación: 1 } },
-            { text: "Comedias o películas ligeras.", points: { Liberación: 7, Virtud: 5, Firmamento: 3, Abismo: 1 } },
-            { text: "Ciencia ficción o fantasía.", points: { Creación: 7, Firmamento: 5, Abismo: 3, Dominación: 1 } }
+          {
+            text: "Comedias y Románticas. En general películas relajantes.",
+            points: { Virtud: 7, Liberación: 5, Creación: 3, Abismo: 1 }
+          },
+          {
+            text: "Fantasía y ciencia ficción.",
+            points: { Creación: 7, Firmamento: 5, Destrucción: 3, Pecado: 1 }
+          },
+          {
+            text: "Películas viscerales y sangrientas.",
+            points: { Destrucción: 7, Abismo: 5, Creación: 3, Pecado: 1 }
+          },
+          {
+            text: "Películas llenas de acción y aventuras emocionantes.",
+            points: { Liberación: 7, Creación: 5, Virtud: 3, Destrucción: 1 }
+          },
+          {
+            text: "Thrillers y películas de misterio.",
+            points: { Firmamento: 7, Creación: 5, Liberación: 3, Abismo: 1 }
+          },
+          {
+            text: "Películas de terror que me mantienen en tensión y desafío mis miedos.",
+            points: { Abismo: 7, Destrucción: 5, Firmamento: 3, Pecado: 1 }
+          }
         ]
-    },
-    {
+      },      
+      {
         text: "¿Cuál es tu mayor fortaleza?",
         options: [
-            { text: "Mi capacidad para mantener la calma en situaciones difíciles.", points: { Firmamento: 7, Virtud: 5, Destrucción: 3, Abismo: 1 } },
-            { text: "Mi creatividad y originalidad.", points: { Creación: 7, Liberación: 5, Firmamento: 3, Destrucción: 1 } },
-            { text: "Mi energía y determinación.", points: { Destrucción: 7, Dominación: 5, Liberación: 3, Creación: 1 } },
-            { text: "Mi empatía y capacidad para entender a los demás.", points: { Virtud: 7, Firmamento: 5, Liberación: 3, Abismo: 1 } }
+          {
+            text: "Mi capacidad para mantener la calma y tomar decisiones sabias bajo presión.",
+            points: { Firmamento: 7, Virtud: 5, Creación: 3, Abismo: 1 }
+          },
+          {
+            text: "Mi habilidad para encontrar soluciones innovadoras y superar desafíos.",
+            points: { Creación: 7, Firmamento: 5, Liberación: 3, Abismo: 1 }
+          },
+          {
+            text: "Mi empatía y capacidad para entender y apoyar a los demás en sus momentos difíciles.",
+            points: { Virtud: 7, Firmamento: 5, Creación: 3, Destrucción: 1 }
+          },
+          {
+            text: "Mi flexibilidad para adaptarme a nuevas situaciones y aprender rápidamente.",
+            points: { Liberación: 7, Firmamento: 5, Creación: 3, Destrucción: 1 }
+          },
+          {
+            text: "Mi habilidad para liderar y dirigir proyectos con una visión clara y estratégica.",
+            points: { Dominación: 7, Firmamento: 5, Abismo: 3, Pecado: 1 }
+          },
+          {
+            text: "Mi capacidad para mantenerme motivado y mantenerme indiferente ante las críticas.",
+            points: { Destrucción: 7, Abismo: 5, Firmamento: 3, Pecado: 1 }
+          }
         ]
-    },
-    {
-        text: "¿Cómo enfrentas los desafíos?",
+      },
+      {
+        text: "¿Cómo te relacionas con el estudio y lo académico?",
         options: [
-            { text: "Con una planificación cuidadosa y detallada.", points: { Firmamento: 7, Virtud: 5, Dominación: 3, Creación: 1 } },
-            { text: "Con energía y determinación, dispuesto a superar cualquier obstáculo.", points: { Destrucción: 7, Dominación: 5, Firmamento: 3, Liberación: 1 } },
-            { text: "Con creatividad, buscando soluciones innovadoras.", points: { Creación: 7, Liberación: 5, Firmamento: 3, Destrucción: 1 } },
-            { text: "Con paciencia y empatía, considerando todas las perspectivas.", points: { Virtud: 7, Firmamento: 5, Liberación: 3, Abismo: 1 } }
+          {
+            text: "No tengo problema de estudiar y tengo una buena relación con mis maestros y compañeros.",
+            points: { Virtud: 7, Firmamento: 5, Creación: 3, Abismo: 1 }
+          },
+          {
+            text: "No tengo ningún problema con el estudio, me esfuerzo por mantenerme al día con los avances en mi campo.",
+            points: { Creación: 7, Firmamento: 5, Liberación: 3, Destrucción: 1 }
+          },
+          {
+            text: "La verdad es que el estudio simplemente no es lo mío.",
+            points: { Destrucción: 7, Pecado: 5, Liberación: 3, Abismo: 1 }
+          },
+          {
+            text: "Me va bien, por lo general me gusta aprender practicando lo aprendido y ser autodidacta.",
+            points: { Firmamento: 7, Virtud: 5, Creación: 3, Pecado: 1 }
+          },
+          {
+            text: "A pesar de no ser un fan del estudio, soy responsable con los trabajos y trato de adaptarme a las exigencias.",
+            points: { Liberación: 7, Firmamento: 5, Creación: 3, Destrucción: 1 }
+          },
+          {
+            text: "A veces siento que el estudio es una carga y solo me esfuerzo lo suficiente para pasar los exámenes.",
+            points: { Pecado: 7, Abismo: 5, Liberación: 3, Destrucción: 1 }
+          }
         ]
-    },
-    {
+      },
+      {
         text: "¿Qué tipo de entorno prefieres para trabajar?",
         options: [
-            { text: "Un entorno estructurado y organizado.", points: { Firmamento: 7, Virtud: 5, Dominación: 3, Creación: 1 } },
-            { text: "Un entorno dinámico y cambiante.", points: { Liberación: 7, Destrucción: 5, Creación: 3, Firmamento: 1 } },
-            { text: "Un entorno colaborativo y social.", points: { Virtud: 7, Firmamento: 5, Liberación: 3, Abismo: 1 } },
-            { text: "Un entorno flexible y creativo.", points: { Creación: 7, Liberación: 5, Firmamento: 3, Destrucción: 1 } }
+          {
+            text: "Prefiero trabajar sin distracciones ni interrupciones. No tengo problema con la presión.",
+            points: { Firmamento: 7, Creación: 5, Virtud: 3, Pecado: 1 }
+          },
+          {
+            text: "Prefiero un entorno dinámico y flexible donde pueda adaptarme a diferentes tareas.",
+            points: { Creación: 7, Firmamento: 5, Liberación: 3, Abismo: 1 }
+          },
+          {
+            text: "Me gusta trabajar bajo presión y en situaciones desafiantes.",
+            points: { Abismo: 7, Dominación: 5, Liberación: 3, Firmamento: 1 }
+          },
+          {
+            text: "Me gusta mantener un entorno ordenado y ser productivo, además de orientar a mis compañeros cuando lo necesitan.",
+            points: { Liberación: 7, Firmamento: 5, Creación: 3, Destrucción: 1 }
+          },   
+          {
+            text: "Prefiero un entorno donde pueda tomar el control y dirigir a otros.",
+            points: { Dominación: 7, Pecado: 5, Firmamento: 3, Abismo: 1 }
+          },
+          {
+            text: "Prefiero un entorno colaborativo donde pueda interactuar y aprender de los demás.",
+            points: { Virtud: 7, Firmamento: 5, Creación: 3, Abismo: 1 }
+          }
         ]
-    },
-    {
-        text: "¿Qué te inspira más?",
-        options: [
-            { text: "La belleza y el arte en el mundo que me rodea.", points: { Creación: 7, Firmamento: 5, Abismo: 3, Virtud: 1 } },
-            { text: "Las historias de personas que han superado grandes desafíos.", points: { Virtud: 7, Firmamento: 5, Destrucción: 3, Liberación: 1 } },
-            { text: "Los logros científicos y tecnológicos.", points: { Firmamento: 7, Creación: 5, Dominación: 3, Destrucción: 1 } },
-            { text: "Las experiencias emocionantes y aventureras.", points: { Liberación: 7, Destrucción: 5, Abismo: 3, Virtud: 1 } }
-        ]
-    },
-    {
-        text: "¿Cómo prefieres aprender?",
-        options: [
-            { text: "A través de la práctica y la experiencia directa.", points: { Liberación: 7, Destrucción: 5, Creación: 3, Firmamento: 1 } },
-            { text: "Leyendo y estudiando información detallada.", points: { Firmamento: 7, Virtud: 5, Creación: 3, Dominación: 1 } },
-            { text: "Participando en discusiones y trabajos en grupo.", points: { Virtud: 7, Liberación: 5, Firmamento: 3, Creación: 1 } },
-            { text: "Experimentando y probando nuevas ideas.", points: { Creación: 7, Liberación: 5, Abismo: 3, Destrucción: 1 } }
-        ]
-    },
-    {
-        text: "¿Cuál es tu enfoque hacia los cambios?",
-        options: [
-            { text: "Los acepto y me adapto rápidamente.", points: { Liberación: 7, Creación: 5, Destrucción: 3, Firmamento: 1 } },
-            { text: "Los analizo cuidadosamente antes de aceptarlos.", points: { Firmamento: 7, Virtud: 5, Creación: 3, Destrucción: 1 } },
-            { text: "Trato de controlarlos para que me beneficien.", points: { Dominación: 7, Destrucción: 5, Firmamento: 3, Virtud: 1 } },
-            { text: "Busco cómo pueden beneficiar a todos.", points: { Virtud: 7, Firmamento: 5, Liberación: 3, Creación: 1 } }
-        ]
-    },
-    {
-        text: "¿Cómo te describirían tus amigos?",
-        options: [
-            { text: "Empático y comprensivo.", points: { Virtud: 7, Firmamento: 5, Liberación: 3, Abismo: 1 } },
-            { text: "Creativo y soñador.", points: { Creación: 7, Liberación: 5, Firmamento: 3, Destrucción: 1 } },
-            { text: "Determinado y valiente.", points: { Destrucción: 7, Dominación: 5, Firmamento: 3, Liberación: 1 } },
-            { text: "Organizado y meticuloso.", points: { Firmamento: 7, Virtud: 5, Dominación: 3, Creación: 1 } }
-        ]
-    },
-    {
-        text: "¿Qué tipo de libros prefieres?",
-        options: [
-            { text: "Ficción fantástica o de ciencia ficción.", points: { Creación: 7, Firmamento: 5, Abismo: 3, Liberación: 1 } },
-            { text: "Novelas históricas o biografías.", points: { Firmamento: 7, Virtud: 5, Creación: 3, Destrucción: 1 } },
-            { text: "Libros de autoayuda y desarrollo personal.", points: { Virtud: 7, Firmamento: 5, Liberación: 3, Abismo: 1 } },
-            { text: "Thrillers o novelas de acción.", points: { Destrucción: 7, Dominación: 5, Liberación: 3, Creación: 1 } }
-        ]
-    },
-    {
-        text: "¿Cómo manejas los fracasos?",
-        options: [
-            { text: "Aprendo de ellos y busco mejorar.", points: { Creación: 7, Virtud: 5, Firmamento: 3, Destrucción: 1 } },
-            { text: "Me esfuerzo más y trato de superarlos.", points: { Destrucción: 7, Dominación: 5, Firmamento: 3, Liberación: 1 } },
-            { text: "Busco apoyo en mis amigos y familiares.", points: { Virtud: 7, Firmamento: 5, Liberación: 3, Abismo: 1 } },
-            { text: "Reflexiono sobre lo que salió mal y busco nuevas estrategias.", points: { Firmamento: 7, Creación: 5, Abismo: 3, Virtud: 1 } }
-        ]
-    },
-    {
-        text: "¿Qué te hace sentir más realizado?",
-        options: [
-            { text: "Crear algo nuevo y original.", points: { Creación: 7, Liberación: 5, Firmamento: 3, Destrucción: 1 } },
-            { text: "Ayudar a otros a alcanzar sus metas.", points: { Virtud: 7, Firmamento: 5, Liberación: 3, Abismo: 1 } },
-            { text: "Superar desafíos difíciles.", points: { Destrucción: 7, Dominación: 5, Firmamento: 3, Creación: 1 } },
-            { text: "Organizar y completar un proyecto exitosamente.", points: { Firmamento: 7, Virtud: 5, Dominación: 3, Creación: 1 } }
-        ]
-    },
-    {
-        text: "¿Cómo describes tu estilo de comunicación?",
-        options: [
-            { text: "Directo y claro.", points: { Destrucción: 7, Dominación: 5, Firmamento: 3, Liberación: 1 } },
-            { text: "Empático y comprensivo.", points: { Virtud: 7, Firmamento: 5, Liberación: 3, Abismo: 1 } },
-            { text: "Creativo y expresivo.", points: { Creación: 7, Liberación: 5, Firmamento: 3, Destrucción: 1 } },
-            { text: "Organizado y meticuloso.", points: { Firmamento: 7, Virtud: 5, Dominación: 3, Creación: 1 } }
-        ]
-    },
-    {
-        text: "¿Qué es lo más importante para ti en el trabajo?",
-        options: [
-            { text: "La innovación y la creatividad.", points: { Creación: 7, Liberación: 5, Firmamento: 3, Destrucción: 1 } },
-            { text: "La estabilidad y la seguridad.", points: { Firmamento: 7, Virtud: 5, Creación: 3, Abismo: 1 } },
-            { text: "El desafío y la competencia.", points: { Destrucción: 7, Dominación: 5, Liberación: 3, Firmamento: 1 } },
-            { text: "La colaboración y el trabajo en equipo.", points: { Virtud: 7, Firmamento: 5, Liberación: 3, Creación: 1 } }
-        ]
-    },
-    {
-        text: "¿Cómo manejas las críticas?",
-        options: [
-            { text: "Las acepto y trato de mejorar.", points: { Virtud: 7, Firmamento: 5, Creación: 3, Destrucción: 1 } },
-            { text: "Las uso como motivación para demostrar mi valía.", points: { Destrucción: 7, Dominación: 5, Liberación: 3, Firmamento: 1 } },
-            { text: "Las analizo y tomo lo que considero útil.", points: { Firmamento: 7, Virtud: 5, Creación: 3, Abismo: 1 } },
-            { text: "Las ignoro si no son constructivas.", points: { Liberación: 7, Abismo: 5, Creación: 3, Firmamento: 1 } }
-        ]
-    },
-    {
-        text: "¿Qué te impulsa a levantarte cada día?",
-        options: [
-            { text: "La posibilidad de crear algo nuevo.", points: { Creación: 7, Liberación: 5, Firmamento: 3, Destrucción: 1 } },
-            { text: "El deseo de ayudar a los demás.", points: { Virtud: 7, Firmamento: 5, Liberación: 3, Abismo: 1 } },
-            { text: "Los desafíos y metas que me propongo.", points: { Destrucción: 7, Dominación: 5, Firmamento: 3, Creación: 1 } },
-            { text: "La búsqueda de estabilidad y orden.", points: { Firmamento: 7, Virtud: 5, Dominación: 3, Abismo: 1 } }
-        ]
-    },
-    {
-        text: "¿Qué prefieres en una situación difícil?",
-        options: [
-            { text: "Buscar soluciones creativas y alternativas.", points: { Creación: 7, Liberación: 5, Firmamento: 3, Destrucción: 1 } },
-            { text: "Mantener la calma y analizar la situación.", points: { Firmamento: 7, Virtud: 5, Creación: 3, Abismo: 1 } },
-            { text: "Actuar rápidamente para resolver el problema.", points: { Destrucción: 7, Dominación: 5, Firmamento: 3, Liberación: 1 } },
-            { text: "Buscar apoyo y consejo de otros.", points: { Virtud: 7, Firmamento: 5, Liberación: 3, Abismo: 1 } }
-        ]
-    },
-    {
-        text: "¿Qué te hace sentir exitoso?",
-        options: [
-            { text: "Crear algo de valor.", points: { Creación: 7, Firmamento: 5, Virtud: 3, Destrucción: 1 } },
-            { text: "Superar obstáculos y desafíos.", points: { Destrucción: 7, Dominación: 5, Liberación: 3, Firmamento: 1 } },
-            { text: "Ayudar a otros a tener éxito.", points: { Virtud: 7, Firmamento: 5, Liberación: 3, Abismo: 1 } },
-            { text: "Mantener el orden y la estabilidad en mi vida.", points: { Firmamento: 7, Virtud: 5, Creación: 3, Abismo: 1 } }
-        ]
-    },
-    {
-        text: "¿Cómo prefieres resolver los problemas?",
-        options: [
-            { text: "Con creatividad e innovación.", points: { Creación: 7, Liberación: 5, Firmamento: 3, Destrucción: 1 } },
-            { text: "Con lógica y análisis.", points: { Firmamento: 7, Virtud: 5, Creación: 3, Destrucción: 1 } },
-            { text: "Con energía y acción.", points: { Destrucción: 7, Dominación: 5, Liberación: 3, Firmamento: 1 } },
-            { text: "Con paciencia y empatía.", points: { Virtud: 7, Firmamento: 5, Liberación: 3, Abismo: 1 } }
-        ]
-    },
-    {
-        text: "¿Qué te gusta más de tu entorno laboral?",
-        options: [
-            { text: "Las oportunidades para innovar y crear.", points: { Creación: 7, Firmamento: 5, Liberación: 3, Destrucción: 1 } },
-            { text: "El ambiente de estabilidad y orden.", points: { Firmamento: 7, Virtud: 5, Creación: 3, Dominación: 1 } },
-            { text: "Los desafíos constantes y la competencia.", points: { Destrucción: 7, Dominación: 5, Firmamento: 3, Creación: 1 } },
-            { text: "La colaboración y el trabajo en equipo.", points: { Virtud: 7, Firmamento: 5, Liberación: 3, Abismo: 1 } }
-        ]
-    },
-    {
-        text: "¿Cómo prefieres gestionar tu tiempo?",
-        options: [
-            { text: "Con una planificación meticulosa y detallada.", points: { Firmamento: 7, Virtud: 5, Creación: 3, Destrucción: 1 } },
-            { text: "De manera flexible, adaptándome a las circunstancias.", points: { Liberación: 7, Creación: 5, Firmamento: 3, Destrucción: 1 } },
-            { text: "Con enfoque en completar tareas rápidamente.", points: { Destrucción: 7, Dominación: 5, Firmamento: 3, Liberación: 1 } },
-            { text: "Dedicando tiempo a reflexionar y planificar mis acciones.", points: { Virtud: 7, Firmamento: 5, Creación: 3, Abismo: 1 } }
-        ]
-    },
-    {
-        text: "¿Qué te hace sentir más satisfecho?",
-        options: [
-            { text: "Ver los resultados de mi trabajo reflejados en algo tangible.", points: { Creación: 7, Firmamento: 5, Virtud: 3, Destrucción: 1 } },
-            { text: "Superar un desafío o competencia.", points: { Destrucción: 7, Dominación: 5, Firmamento: 3, Creación: 1 } },
-            { text: "Ayudar a otros a alcanzar sus objetivos.", points: { Virtud: 7, Firmamento: 5, Liberación: 3, Abismo: 1 } },
-            { text: "Mantener un equilibrio y orden en mis actividades diarias.", points: { Firmamento: 7, Virtud: 5, Creación: 3, Abismo: 1 } }
-        ]
-    },
-    {
-        text: "¿Cómo prefieres abordar una nueva tarea?",
-        options: [
-            { text: "Con creatividad e innovación, buscando nuevas formas de hacer las cosas.", points: { Creación: 7, Liberación: 5, Firmamento: 3, Destrucción: 1 } },
-            { text: "Con un enfoque estructurado y planificado.", points: { Firmamento: 7, Virtud: 5, Creación: 3, Dominación: 1 } },
-            { text: "Con energía y determinación para completarla rápidamente.", points: { Destrucción: 7, Dominación: 5, Liberación: 3, Firmamento: 1 } },
-            { text: "Con paciencia y atención a los detalles.", points: { Virtud: 7, Firmamento: 5, Creación: 3, Abismo: 1 } }
-        ]
-    }
+      },         
+        {
+            text: "¿Qué te inspira más?",
+            options: [
+              {
+                text: "Cuando un familiar o amigo cercano cumple un objetivo.",
+                points: { Virtud: 7, Firmamento: 5, Creación: 3, Abismo: 1 }
+              },
+              {
+                text: "Cuando un proyecto propio da los resultados esperados.",
+                points: { Creación: 7, Liberación: 5, Firmamento: 3, Destrucción: 1 }
+              },
+              {
+                text: "Superar un reto que parecía imposible y saber que podré superar los desafíos futuros.",
+                points: { Firmamento: 7, Virtud: 5, Creación: 3, Destrucción: 1 }
+              },
+              {
+                text: "Me inspira la oportunidad de hacer una diferencia positiva en el mundo",
+                points: { Liberación: 7, Firmamento: 5, Creación: 3, Abismo: 1 }
+              },
+              {
+                text: "Ser reconocido por mis logros y habilidades.",
+                points: { Dominación: 7, Pecado: 5, Firmamento: 3, Abismo: 1 }
+              },
+              {
+                text: "Cuando le va mal a la gente que no me agrada.",
+                points: { Pecado: 7, Abismo: 5, Dominación: 3, Firmamento: 1 }
+              }
+            ]
+          },          
+          {
+            text: "¿Cuál es tu enfoque hacia los cambios?",
+            options: [
+              {
+                text: "Los cambios pueden ser desafiantes, pero trato de adaptarme manteniendo una actitud positiva.",
+                points: { Virtud: 7, Firmamento: 5, Creación: 3, Destrucción: 1 }
+              },
+              {
+                text: "A veces encuentro difícil adaptarme a los cambios, pero trato de mantenerme flexible y abierto.",
+                points: { Creación: 7, Firmamento: 5, Liberación: 3, Abismo: 1 }
+              },
+              {
+                text: "Prefiero la estabilidad y me siento incómodo con cambios inesperados o repentinos.",
+                points: { Abismo: 7, Dominación: 5, Firmamento: 3, Destrucción: 1 }
+              },
+              {
+                text: "Veo los cambios como oportunidades para crecer y mejorar, y me adapto rápidamente a nuevas situaciones.",
+                points: { Liberación: 7, Firmamento: 5, Creación: 3, Destrucción: 1 }
+              },
+              {
+                text: "Los cambios me desafían, pero a menudo los enfrento con una actitud crítica y analítica.",
+                points: { Dominación: 7, Pecado: 5, Firmamento: 3, Liberación: 1 }
+              },
+              {
+                text: "Prefiero la estabilidad y la previsibilidad, pero puedo adaptarme a los cambios cuando es necesario.",
+                points: { Firmamento: 7, Virtud: 5, Creación: 3, Pecado: 1 }
+              }
+            ]
+          },          
+          {
+            text: "¿Cómo te describirían tus amigos?",
+            options: [
+              {
+                text: "Me describen como alguien leal y siempre dispuesto a ayudar, alguien en quien pueden confiar.",
+                points: { Virtud: 7, Firmamento: 5, Creación: 3, Abismo: 1 }
+              },
+              {
+                text: "Me describen como alguien rencoroso y que a veces puede ser dominante en las decisiones.",
+                points: { Dominación: 7, Pecado: 5, Firmamento: 3, Abismo: 1 }
+              },
+              {
+                text: "Me ven como una persona creativa y llena de ideas, alguien que siempre busca nuevas formas de hacer las cosas.",
+                points: { Creación: 7, Firmamento: 5, Liberación: 3, Destrucción: 1 }
+              },
+              {
+                text: "Me consideran una persona adaptable y positiva, que enfrenta los desafíos con una actitud abierta.",
+                points: { Liberación: 7, Firmamento: 5, Creación: 3, Destrucción: 1 }
+              },
+              {
+                text: "Me ven como alguien astuto y carismático, que siempre tiene un plan bien pensado y sabe cómo manejar las situaciones.",
+                points: { Firmamento: 7, Virtud: 5, Creación: 3, Pecado: 1 }
+              },           
+              {
+                text: "Me consideran una persona que a veces se siente abrumada y evita los conflictos cuando puede.",
+                points: { Pecado: 7, Abismo: 5, Liberación: 3, Destrucción: 1 }
+              }
+            ]
+          },
+          {
+            text: "¿Cómo manejas los fracasos?",
+            options: [
+              {
+                text: "Aprendo de mis errores sin dudar en pedir ayuda cuando la necesito.",
+                points: { Virtud: 7, Creación: 5, Firmamento: 3, Abismo: 1 }
+              },
+              {
+                text: "Veo el fracaso como una etapa normal en el camino hacia el éxito.",
+                points: { Liberación: 7, Firmamento: 5, Creación: 3, Destrucción: 1 }
+              },
+              {
+                text: "Me tomo el tiempo para analizar la situación y ajustar mi enfoque para mejorar en el futuro.",
+                points: { Firmamento: 7, Virtud: 5, Liberación: 3, Pecado: 1 }
+              },
+              {
+                text: "Me esfuerzo por reponerme rápidamente y buscar nuevas oportunidades para seguir adelante.",
+                points: { Creación: 7, Firmamento: 5, Dominación: 3, Destrucción: 1 }
+              },
+              {
+                text: "A veces me siento desmotivado y necesito tiempo para volver a encontrar la inspiración para seguir adelante.",
+                points: { Abismo: 7, Destrucción: 5, Liberación: 3, Destrucción: 1 }
+              },
+              {
+                text: "Enfrento el fracaso con determinación y trato de aplicar un enfoque más agresivo para revertir la situación.",
+                points: { Pecado: 7, Dominación: 5, Firmamento: 3, Destrucción: 1 }
+              }
+            ]
+          },
+          {
+            text: "¿Cómo describes tu estilo de comunicación?",
+            options: [
+                {
+                    text: "Soy amable y cortés con todos, incluso con completos desconocidos.",
+                    points: { Virtud: 7, Liberación: 5, Creación: 3, Destrucción: 1 }
+                },
+            {
+                text: "No hablo con extraños por mi timidez, pero soy muy hablador cuando gano confianza.",
+                    points: { Creación: 7, Firmamento: 5, Liberación: 3, Abismo: 1 }
+            },
+            {
+                text: "Mi estilo de comunicación es directo y al grano; creo que la honestidad es fundamental.",
+                points: { Destrucción: 7, Pecado: 5, Liberación: 3, Firmamento: 1 }
+            },
+            {
+                text: "No suelo iniciar conversaciones, pero disfruto hablando y escuchando a los demás, incluso desconocidos.",
+                points: { Firmamento: 7, Virtud: 5, Liberación: 3, Pecado: 1 }
+            },
+            {
+                text: "Inicio conversaciones hasta con extraños. Soy bastante hablador.",
+                points: { Liberación: 7, Creación: 5, Firmamento: 3, Dominación: 1 }
+            },
+            {
+                text: "Me fastidia cuando los extraños inician conversaciones abruptas conmigo.",
+                points: { Abismo: 7, Pecado: 5, Firmamento: 3, Destrucción: 1 }
+              }
+            ]
+          },
 ];
 
 
@@ -500,7 +694,9 @@ function switchToQuizScreen() {
 function switchToResultScreen() {
     quizContainer.style.display = 'none';
     resultContainer.style.display = 'block';
+    window.scrollTo(0, 0); // Desplaza la página a la parte superior
 }
+
 
 function switchToWelcomeScreen() {
     resultContainer.style.display = 'none';
