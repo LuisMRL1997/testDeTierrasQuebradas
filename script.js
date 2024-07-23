@@ -611,6 +611,142 @@ const questions = [
                 points: { Abismo: 7, Dominación: 5, Creación: 3, Destrucción: 1 }
                         }
                       ]
+          },
+          {
+            text: "¿Como es tu alimentación y tu actividad física?",
+            options: [
+              {
+                text: "Desde siempre me ha gustado comer variado y saludable, el ejercicio me relaja.",
+                points: { Virtud: 7, Firmamento: 5, Liberación: 3, Dominación: 1 }
+                                    },
+              {
+                text: "Hago dietas saludables y tengo un cronograma de actividades fisicas diarias",
+                points: { Liberación: 7, Virtud: 5, Abismo: 3, Destrucción: 1 }
+                                },
+              {
+                text: "Intento comer saludable y de vez en cuando me ejercito, lo hago porque se que es saludable.",
+                points: { Firmamento: 7, Pecado: 5, Virtud: 3, Creación: 1 }
+                                },
+              {
+                text: "A veces lo intento, pero me gusta mucho la verdad.",
+                points: { Creación: 7, Firmamento: 5, Destrucción: 3, Abismo: 1 }
+                                },
+              {
+                text: "Hago dietas estrictas y jornadas intensas de ejercicio .",
+                points: { Dominación: 7, Abismo: 5, Liberación: 3, Virtud: 1 }
+                                },
+              {
+                text: "No se, nunca pienso en eso la verdad.",
+                points: { Destrucción: 7, Pecado: 5, Creación: 3, Firmamento: 1 }
+                                  }
+                                ]
+          },
+         {
+            text: "¿Como son tus relaciones sociales?",
+            options: [
+              {
+                text: "No me resulta fácil hacer amigos. Tengo varios amigos por Internet",
+                points: { Creación: 7, Firmamento: 5, Liberación: 3, Dominación: 1 }
+                                    },
+              {
+                text: "Soy bastante extrovertido y me resulta fácil hacer amigos.",
+                points: { Liberación: 7, Virtud: 5, Abismo: 3, Destrucción: 1 }
+                                },
+              {
+                text: "Soy carismático y agradable. Tengo varios amigos pero no soy el alma de la fiesta.",
+                points: { Firmamento: 7, Liberación: 5, Virtud: 3, Dominación: 1 }
+                                },
+              {
+                text: "Soy bueno para escuchar y la gente confia en mi para desahogarse. Pero no me considero demasiado extrovertido.",
+                points: { Virtud: 7, Firmamento: 5, Liberación: 3, Creación: 1 }
+                                },
+              {
+                text: "En pocas personas se puede confiar.",
+                points: { Destrucción: 7, Pecado: 5, Creación: 3, Firmamento: 1 }
+                                },
+              {
+                text: "Soy bastante extrovertido y amigo de todos. Suelo ser el centro de atención .",
+                points: { Dominación: 7, Abismo: 5, Liberación: 3, Firmamento: 1 }
+                                  }
+                                ]
+          },
+          {
+            text: "¿Crees en cosas como el horóscopo o similares?",
+            options: [
+              {
+                text: "No, no creo en supersticiones.",
+                points: { Creación: 7, Firmamento: 5, Liberación: 3, Dominación: 1 }
+                                              },
+              {
+                text: "Si, me gusta mucho. Tal vez soy bastante espíritual.",
+                points: { Virtud: 7, Liberación: 5, Firmamento: 3, Pecado: 1 }
+                                          },
+              {
+                text: "De vez en cuando lo leo, por curiosidad o comparar con amigos, pero no creo en nada de eso.",
+                points: { Firmamento: 7, Creación: 5, Liberación: 3, Virtud: 1 }
+                                          },
+              {
+                text: "No siempre lo leo, pero si logro identificarme y creo en eso.",
+                points: { Liberación: 7, Virtud: 5, Firmamento: 3, Pecado: 1 }
+                                          },
+              {
+                text: "Son puras estupideces.",
+                points: { Dominación: 7, Abismo: 5, Firmamento: 3, Creación: 1 }
+                                          },
+              {
+                text: "Los leo a diario y tal vez me dejo guiar por ellos.",
+                points: { Pecado: 7, Destrucción: 5, Virtud: 3, Liberación: 1 }
+                                            }
+                                          ]
+          },
+          {
+            text: "¿Cual es tu estación favorita del año?",
+            options: [
+              {
+                text: "Primavera.",
+                points: { Virtud: 7, Firmamento: 5, Liberación: 3, Destrucción: 1 }
+                                              },
+              {
+                text: "Verano",
+                points: { Creación: 7, Virtud: 5, Pecado: 3, Firmamento: 1 }
+                                          },
+              {
+                text: "Otoño.",
+                points: { Firmamento: 7, Liberación: 5, Abismo: 3, Creación: 1 }
+                                          },
+              {
+                text: "Invierno.",
+                points: { Liberación: 7, Firmamento: 5, Dominación: 3, Abismo: 1 }                         },
+                                          ]
+          },
+          {
+            text: "¿Que opinas de los menos afortunados?",
+            options: [
+              {
+                text: "Me conmueven,  pero no suelo pensar mucho en eso.",
+                points: { Firmamento: 7, Creación: 5, Virtud: 3, Dominación: 1 }
+                                                        },
+              {
+                text: "Siento tristeza por los enfermos y discapacitados. Los mendigos podrian ponerse a trabajar.",
+                points: { Liberación: 7, Virtud: 5, Firmamento: 3, Pecado: 1 }
+                                                    },
+              {
+                text: "Suelo ayudar a los necesitados si está en mis posibilidades.",
+                points: { Virtud: 7, Liberación: 5, Firmamento: 3, Creación: 1 }
+                                                    },
+              {
+                text: "Me esfuerzo mucho trabajando y yo necesito mi dinero.",
+                points: { Creación: 7, Abismo: 5, Dominación: 3, Liberación: 1 }
+                                                    },
+              {
+                text: "Dono las cosas que me sobran o no necesito, en lugar de botarlas.",
+                points: { Virtud: 7, Firmamento: 5, Liberación: 3, Creación: 1 }
+                                                    },
+              {
+                text: "Yo no les intereso, ¿porque debería hacerlo yo?.",
+                points: { Dominación: 7, Pecado: 5, Abismo: 3, Creación: 1 }
+                                                      }
+                                                    ]
           }
 ];
 
@@ -754,7 +890,7 @@ function displayResult(resultType) {
             resultContainer.classList.add('virtue');
             resultContainer.querySelector('#result').innerHTML = `
                 <h2>¡Eres Arúspice de la Virtud!</h2>
-                <p>Las respuestas que diste en tu test revelan que posees un fuerte sentido de caridad y empatía. Tu naturaleza altruista te lleva a mejorar la vida de quienes te rodean sin esperar nada a cambio. Conectas emocionalmente con los demás, comprendiendo y compartiendo tanto sus alegrías como sus sufrimientos. Encuentras satisfacción en aliviar el dolor ajeno y en fomentar el bienestar de tu comunidad, viendo en estos actos desinteresados tu propósito vital. No obstante, tu constante impulso por ayudar puede hacerte parecer moralista y santurrón, lo cual podría generar tensiones con quienes prefieren manejar sus problemas de manera diferente.</p>
+                <p>Las respuestas que diste en tu test revelan que posees un fuerte sentido de caridad y empatía. Tu naturaleza altruista te lleva a mejorar la vida de tus seres queridos sin esperar nada a cambio. Conectas emocionalmente con los demás, comprendiendo y compartiendo tanto sus alegrías como sus sufrimientos. Encuentras satisfacción en aliviar el dolor ajeno y en fomentar el bienestar de tu comunidad, viendo en estos actos desinteresados tu propósito vital.</p>
         
                 <p>Los Arúspices, como tú, poseen una profunda comprensión del sufrimiento y la alegría humana. Este entendimiento se refleja en su deseo genuino de hacer el bien y proteger a los demás. Sin embargo, su constante caridad y tendencia a ser santurrones pueden llegar a molestar a quienes los rodean. A menudo, su moral elevada y su insistencia en hacer el bien los hacen parecer irritantes y moralistas, lo que puede generar tensiones. Este comportamiento elevado puede ser percibido como condescendiente por aquellos que prefieren resolver sus propios problemas.</p>
         
@@ -776,7 +912,7 @@ function displayResult(resultType) {
                 resultContainer.classList.add('creation');
                 resultContainer.querySelector('#result').innerHTML = `
                     <h2>¡Eres Conjurador de la Creación!</h2>
-                    <p>Las respuestas que diste en tu test sugieren que eres una persona creativa y trabajadora, con una curiosidad insaciable. Te encanta descubrir y experimentar, viendo el mundo como un vasto laboratorio lleno de misterios por explorar. Sin embargo, a veces puedes sentirte inferior y buscas llamar la atención para demostrar tu valía. Tu entusiasmo por la vida puede inspirar a los demás, aunque tu necesidad de validación puede resultar agotadora.</p>
+                    <p>Las respuestas que diste en tu test sugieren que eres una persona creativa y trabajadora, con una curiosidad insaciable. Te encanta descubrir y experimentar, viendo el mundo como un vasto laboratorio lleno de misterios por explorar. Sin embargo, a veces puedes sentirte inferior y buscas llamar la atención para demostrar tu valía. Es probable que también tengas una tendencia a la introversión o timidez.</p>
 
                     <p>Los Conjuradores de la Creación utilizan el Barion, la energía primigenia, para manipular los elementos. Pueden desatar bolas de fuego, ráfagas de hielo, oleadas de agua y vendavales de aire. Su magia se basa en la creatividad y el estudio de las leyes de la naturaleza, permitiéndoles simular elementos con gran precisión. Aunque esta habilidad es impresionante, puede llevar a un agotamiento físico y mental significativo.</p>
 
@@ -799,7 +935,7 @@ function displayResult(resultType) {
                             resultContainer.classList.add('liberacion');
                             resultContainer.querySelector('#result').innerHTML = `
                                 <h2>¡Eres Evocador de la Liberación!</h2>
-                                <p>Como Evocador de la Liberación, tienes una fuerte inclinación hacia la justicia y el liderazgo. Eres alguien con mucho valor y que siempre toma la iniciativa, pero esta pasión puede hacerte parecer mandón, entrometido o desvergonzado. Tu deseo de imponer tus ideales de libertad y equidad puede llevarte a involucrarte en situaciones donde tu intervención no siempre es bienvenida.</p>
+                                <p>Como Evocador de la Liberación, tienes una fuerte inclinación hacia la justicia y el liderazgo. Eres alguien con mucho valor y que siempre toma la iniciativa. Es probable que tengas una tendencia a la extroversion y tengas bastantes smigos. Pero esta pasión puede hacerte parecer mandón, entrometido o desvergonzado. Tu deseo de imponer tus ideales de libertad y equidad puede llevarte a involucrarte en situaciones donde tu intervención no siempre es bienvenida.</p>
                                 <p>Psicológicamente, los Evocadores son personas guiadas por un profundo amor por la libertad y una fuerte conexión con el Aquilón. Esta fuerza les otorga una gran capacidad para guiar y proteger a los demás, aunque el constante uso del Aquilón puede resultar en un frío penetrante y en la pérdida ocasional de la voz, recordándoles la importancia de equilibrio y reflexión.</p>
                                 <p>En cuanto a tus habilidades, el Aquilón te permite canalizar poderosas evocaciones sonoras que pueden calmar o intimidar a tus adversarios. También puedes crear armas y armaduras de Veridian, las cuales reflejan tus ideales de justicia y proporcionan una protección formidable. La capacidad de conectar con espíritus ancestrales te da una ventaja adicional en combate, fortaleciendo tu vínculo con la libertad y la equidad.</p>
                             `;
