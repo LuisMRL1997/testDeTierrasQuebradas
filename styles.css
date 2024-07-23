@@ -556,3 +556,71 @@ button:active {
         font-size: 2em;
     }
 }
+
+#scoreContainer {
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.score {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.score span {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.score::before {
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.virtue::before {
+    background-color: gold;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5), 0 0 20px rgba(255, 215, 0, 0.3), 0 0 30px rgba(255, 215, 0, 0.2);
+}
+
+.sin::before {
+    background-color: red;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5), 0 0 20px rgba(255, 0, 0, 0.3), 0 0 30px rgba(255, 0, 0, 0.2);
+}
+
+.creation::before {
+    background-color: orange;
+    box-shadow: 0 0 10px rgba(255, 165, 0, 0.5), 0 0 20px rgba(255, 165, 0, 0.3), 0 0 30px rgba(255, 165, 0, 0.2);
+}
+
+.destruction::before {
+    background-color: brown;
+    box-shadow: 0 0 10px rgba(165, 42, 42, 0.5), 0 0 20px rgba(165, 42, 42, 0.3), 0 0 30px rgba(165, 42, 42, 0.2);
+}
+
+.liberation::before {
+    background-color: mediumseagreen;
+    box-shadow: 0 0 10px rgba(60, 179, 113, 0.5), 0 0 20px rgba(60, 179, 113, 0.3), 0 0 30px rgba(60, 179, 113, 0.2);
+}
+
+.domination::before {
+    background-color: silver;
+    box-shadow: 0 0 10px rgba(192, 192, 192, 0.5), 0 0 20px rgba(192, 192, 192, 0.3), 0 0 30px rgba(192, 192, 192, 0.2);
+}
+
+.firmament::before {
+    background-color: navy;
+    box-shadow: 0 0 10px rgba(0, 0, 128, 0.5), 0 0 20px rgba(0, 0, 128, 0.3), 0 0 30px rgba(0, 0, 128, 0.2);
+}
+
+.abyss::before {
+    background-color: purple;
+    box-shadow: 0 0 10px rgba(128, 0, 128, 0.5), 0 0 20px rgba(128, 0, 128, 0.3), 0 0 30px rgba(128, 0, 128, 0.2);
+}
