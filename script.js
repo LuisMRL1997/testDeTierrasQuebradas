@@ -4,7 +4,7 @@ const questions = [
         options: [
           {
             text: "Intento resolverlo con calma, porque valoro nuestra amistad.",
-            points: { Virtud: 7, Firmamento: 5, Creación: 3, Abismo: 1 }
+            points: { Virtud: 7, Liberación: 5, Firmamento: 3, Creación: 1 }
           },
           {
             text: "No tengo problema en terminar amistades con quienes no puedo entenderme.",
@@ -12,19 +12,19 @@ const questions = [
           },
           {
             text: "Prefiero dar tiempo para que ambos nos calmemos y podamos olvidar el problema antes de retomar la conversación.",
-            points: { Creación: 7, Virtud: 5, Firmamento: 3, Abismo: 1 }
+            points: { Creación: 7, Firmamento: 5, Virtud: 3, Abismo: 1 }
           },
           {
             text: "Enfrento el problema directamente con mi amigo, buscando una solución a través de la conversación.",
-            points: { Liberación: 7, Firmamento: 5, Virtud: 3, Pecado: 1 }
+            points: { Liberación: 7, Virtud: 5, Dominación: 3, Pecado: 1 }
           },
           {
             text: "La forma de resolverlo depende de la gravedad del desacuerdo.",
-            points: { Pecado: 7, Destrucción: 5, Abismo: 3, Virtud: 1 }
+            points: { Pecado: 7, Destrucción: 5, Abismo: 3, Firmamento: 1 }
           },
           {
-            text: "Analizo la situación, me disculpo si es necesario o pido una disculpa.",
-            points: { Firmamento: 7, Creación: 5, Liberación: 3, Abismo: 1 }
+            text: "Analizo la situación, me disculpo si es necesario o pido que se disculpen conmigo.",
+            points: { Firmamento: 7, Creación: 5, Liberación: 3, Destrucción: 1 }
           }
         ]
     },
@@ -32,24 +32,24 @@ const questions = [
             text: "¿Qué te motiva a iniciar un nuevo proyecto?",
             options: [
               {
-                text: "El entusiasmo por descubrir nuevas habilidades y avanzar en mi carrera.",
-                points: { Creación: 7, Virtud: 5, Liberación: 3, Abismo: 1 }
+                text: "Me gusta descubrir nuevas habilidades y una remuneración económica nunca viene mal.",
+                points: { Creación: 7, Abismo: 5, Firmamento: 3, Liberación: 1 }
               },
               {
                 text: "Innovar y hacer las cosas de manera diferente.",
                 points: { Destrucción: 7, Liberación: 5, Creación: 3, Firmamento: 1 }
               },
               {
-                text: "La oportunidad de adquirir experiencia práctica y aplicar un plan estratégico para alcanzar mis objetivos.",
+                text: "No me gusta sentirme estancado. Tengo aspiraciones que me gustaría alcanzar.",
                 points: { Firmamento: 7, Destrucción: 5, Creación: 3, Liberación: 1 }
               },
               {
                 text: "La posibilidad de contribuir económicamente al bienestar de mi familia.",
-                points: { Virtud: 7, Creación: 5, Firmamento: 3, Abismo: 1 }
+                points: { Virtud: 7, Creación: 5, Liberación: 3, Firmamento: 1 }
               },            
               {
                 text: "El incentivo económico y los beneficios materiales.",
-                points: { Pecado: 7, Abismo: 5, Firmamento: 3, Creación: 1 }
+                points: { Pecado: 7, Abismo: 5, Creación: 3, Firmsmento: 1 }
               },
               {
                 text: "Enfrentarme a mis inseguridades para salir de mi zona de confort y explorar nuevas oportunidades.",
@@ -61,20 +61,20 @@ const questions = [
         text: "¿Cómo describes tu estilo de trabajo?",
         options: [
           {
-            text: "Encuentro soluciones rápidas y efectivas usando mis habilidades.",
-            points: { Creación: 7, Firmamento: 5, Virtud: 3, Pecado: 1 }
+            text: "Siempre me esfuerzo e intento conseguir soluciones usando mis habilidades.",
+            points: { Creación: 7, Liberación: 5, Virtud: 3, Pecado: 1 }
           },
           {
             text: "Hago solo lo necesario para cumplir con los objetivos y evito involucrarme más.",
             points: { Pecado: 7, Destrucción: 5, Liberación: 3, Creación: 1 }
           },
           {
-            text: "Reviso cada detalle con cuidado para asegurar que todo esté perfecto.",
+            text: "Conozco lo que hago y suelo utilizar herramientas que me faciliten el trabajo y me ayuden.",
             points: { Firmamento: 7, Creación: 5, Virtud: 3, Abismo: 1 }
           },          
           {
             text: "Disfruto trabajando en equipo y valoro la colaboración.",
-            points: { Liberación: 7, Creación: 5, Firmamento: 3, Destrucción: 1 }
+            points: { Liberación: 7, Virtud: 5, Firmamento: 3, Destrucción: 1 }
           },
           {
             text: "Actúo con honestidad y me esfuerzo por alcanzar la excelencia en todo lo que hago.",
@@ -82,7 +82,7 @@ const questions = [
           },
           {
             text: "Tomo la iniciativa y dirijo el proyecto según mi visión.",
-            points: { Dominación: 7, Firmamento: 5, Abismo: 3, Pecado: 1 }
+            points: { Dominación: 7, Destrucción: 5, Abismo: 3, Pecado: 1 }
           }
         ]
       },      
@@ -91,27 +91,27 @@ const questions = [
         options: [
           {
             text: "Lidero el equipo, establezco metas y dirijo el proyecto hacia el éxito.",
-            points: { Dominación: 7, Firmamento: 5, Abismo: 3, Pecado: 1 }
+            points: { Dominación: 7, Abismo: 5, Firmamento: 3, Liberación: 1 }
           },
           {
             text: "Colaboro activamente y ofrezco apoyo para que el equipo funcione bien.",
-            points: { Virtud: 7, Firmamento: 5, Creación: 3, Abismo: 1 }
+            points: { Virtud: 7, Liberación: 5, Creación: 3, Abismo: 1 }
           },
           {
-            text: "Busco soluciones y ayudo a resolver problemas cuando surgen.",
+            text: "Soy eficiente y presto atención a los detalles. Se puede confiar en mi.",
             points: { Firmamento: 7, Virtud: 5, Creación: 3, Abismo: 1 }
           },
           {
             text: "Sigo las instrucciones y me encargo de tareas específicas que se me asignan.",
-            points: { Creación: 7, Destrucción: 5, Liberación: 3, Creación: 1 }
+            points: { Creación: 7, Pecado: 5, Virtud: 3, Firmamento: 1 }
           },
           {
             text: "Suelo confiar más en mis propias habilidades, termino haciendo gran parte del trabajo en solitario.",
-            points: { Abismo: 7, Dominación: 5, Firmamento: 3, Pecado: 1 }
+            points: { Abismo: 7, Dominación: 5, Firmamento: 3, Creación: 1 }
           },
           {
             text: "Actúo como mediador para resolver conflictos y mantener la armonía en el equipo.",
-            points: { Liberación: 7, Firmamento: 5, Creación: 3, Abismo: 1 }
+            points: { Liberación: 7, Firmamento: 5, Dominación: 3, Abismo: 1 }
           }
         ]
       },
@@ -120,23 +120,23 @@ const questions = [
         options: [
           {
             text: "Lealtad y apoyo constante.",
-            points: { Virtud: 7, Pecado: 5, Firmamento: 3, Abismo: 1 }
+            points: { Firmamento: 7, Virtud: 5, Liberación: 3, Abismo: 1 }
           },
           {
-            text: "Superar desafíos juntos.",
-            points: { Liberación: 7, Destrucción: 5, Pecado: 3, Virtud: 1 }
+            text: "Alguien con quien sea fluido hablar y facil de invitar a salir a un evento o a tomar algo.",
+            points: { Liberación: 7, Creación: 5, Firmamento: 3, Destrucción: 1 }
           },
           {
-            text: "Compartir ideas y empezar proyectos juntos.",
+            text: "Compartir ideas y empezar proyectos juntos. O jugar Videojuegos con ellos",
             points: { Creación: 7, Liberación: 5, Firmamento: 3, Abismo: 1 }
           },
           {
-            text: "Compartir gusto en común.",
-            points: { Destrucción: 7, Liberación: 5, Pecado: 3, Virtud: 1 }
+            text: "Compartir gustos en común.",
+            points: { Destrucción: 7, Firmamento: 5, Pecado: 3, Virtud: 1 }
           },
           {
             text: "Tener compañía y con quién poder desahogarme.",
-            points: { Firmamento: 7, Creación: 5, Pecado: 3, Destrucción: 1 }
+            points: { Firmamento: 7, Creación: 5, Destrucción: 3, Virtud: 1 }
           },
           {
             text: "Tener a alguien a quién pueda pedirle ayuda o favores.",
@@ -149,27 +149,27 @@ const questions = [
         options: [
           {
             text: "Me gusta compartir momentos con mi familia y mis amigos.",
-            points: { Virtud: 7, Firmamento: 5, Creación: 3, Abismo: 1 }
+            points: { Virtud: 7, Liberación: 5, Firmamento: 3, Creación: 1 }
           },
           {
-            text: "Disfruto de pasar tiempo solo, ya sea leyendo un buen libro o inmiscuyéndome en videojuegos.",
-            points: { Creación: 7, Firmamento: 5, Liberación: 3, Abismo: 1 }
+            text: "Disfruto de pasar tiempo solo, ya sea leyendo un buen libro o inmiscuyéndome en videojuegos. O jugar videojuegos en linea",
+            points: { Creación: 7, Firmamento: 5, Abismo: 3, Destrucción: 1 }
           },
           {
-            text: "Disfruto de actividades encillas como ir al cine y también de grandes eventos como fiestas.",
-            points: { Firmamento: 7, Virtud: 5, Creación: 3, Pecado: 1 }
+            text: "Disfruto de actividades sencillas como ir al cine y también de grandes eventos como fiestas.",
+            points: { Firmamento: 7, Virtud: 5, Liberación: 3, Dominación: 1 }
           },
           {
             text: "Buscar formas de mejorar mis habilidades y competir en desafíos.",
-            points: { Abismo: 7, Destrucción: 5, Firmamento: 3, Dominación: 1 }
+            points: { Abismo: 7, Destrucción: 5, Creación: 3, Dominación: 1 }
           },
           {
             text: "Disfruto de hacer ejercicio y salir a un bar con mis amigos.",
-            points: { Liberación: 7, Creación: 5, Firmamento: 3, Destrucción: 1 }
+            points: { Liberación: 7, Creación: 5, Virtud: 3, Destrucción: 1 }
           },
           {
             text: "A veces pierdo mucho el tiempo en las redes sociales.",
-            points: { Destrucción: 7, Pecado: 5, Firmamento: 3, Liberación: 1 }
+            points: { Destrucción: 7, Pecado: 5, Creación: 3, Liberación: 1 }
           }
         ]
       },      
@@ -182,7 +182,7 @@ const questions = [
           },
           {
             text: "Intento mantener la calma y analizar la situación para encontrar una solución.",
-            points: { Firmamento: 7, Creación: 5, Dominación: 3, Abismo: 1 }
+            points: { Firmamento: 7, Creación: 5, Virtud: 3, Abismo: 1 }
           },
           {
             text: "Busco apoyo de amigos y familiares para desahogarme y recibir consejo.",
@@ -190,15 +190,15 @@ const questions = [
           },
           {
             text: "Enfrento los problemas directamente y me adapto a las circunstancias.",
-            points: { Liberación: 7, Firmamento: 5, Creación: 3, Destrucción: 1 }
+            points: { Liberación: 7, Virtud: 5, Dominación: 3, Destrucción: 1 }
           },
           {
-            text: "Me enfoco en resolver los problemas de manera práctica y eficiente.",
-            points: { Creación: 7, Firmamento: 5, Liberación: 3, Abismo: 1 }
+            text: "Se que el trabajo duro y mi esfuerzo me ayudaran a salir adelante.",
+            points: { Creación: 7, Liberación: 5, Virtud: 3, Firmamento: 1 }
           },
           {
             text: "A veces me siento abrumado y prefiero evitar la situación si es posible.",
-            points: { Abismo: 7, Dominación: 5, Firmamento: 3, Destrucción: 1 }
+            points: { Abismo: 7, Dominación: 5, Virtuf: 3, Destrucción: 1 }
           }
         ]
       },      
@@ -207,7 +207,7 @@ const questions = [
         options: [
           {
             text: "Comedias y Románticas. En general películas relajantes.",
-            points: { Virtud: 7, Liberación: 5, Creación: 3, Abismo: 1 }
+            points: { Virtud: 7, Liberación: 5, Creación: 3, Firmamento: 1 }
           },
           {
             text: "Fantasía y ciencia ficción.",
@@ -215,7 +215,7 @@ const questions = [
           },
           {
             text: "Películas viscerales y sangrientas.",
-            points: { Destrucción: 7, Abismo: 5, Creación: 3, Pecado: 1 }
+            points: { Destrucción: 7, Creación: 5, Pecado: 3, Abismo: 1 }
           },
           {
             text: "Películas llenas de acción y aventuras emocionantes.",
@@ -227,7 +227,7 @@ const questions = [
           },
           {
             text: "Películas de terror que me mantienen en tensión y desafío mis miedos.",
-            points: { Abismo: 7, Destrucción: 5, Firmamento: 3, Pecado: 1 }
+            points: { Abismo: 7, Destrucción: 5, Creación: 3, Pecado: 1 }
           }
         ]
       },      
@@ -236,27 +236,27 @@ const questions = [
         options: [
           {
             text: "Mi capacidad para mantener la calma y tomar decisiones sabias bajo presión.",
-            points: { Firmamento: 7, Virtud: 5, Creación: 3, Abismo: 1 }
+            points: { Firmamento: 7, Liberación: 5, Virtud: 3, Abismo: 1 }
           },
           {
-            text: "Mi habilidad para encontrar soluciones innovadoras y superar desafíos.",
-            points: { Creación: 7, Firmamento: 5, Liberación: 3, Abismo: 1 }
+            text: "Trabajo y me esfuerzo por salir adelante. Soy bastante creativo.",
+            points: { Creación: 7, Dominación: 5, Virtud: 3, Liberación: 1 }
           },
           {
             text: "Mi empatía y capacidad para entender y apoyar a los demás en sus momentos difíciles.",
-            points: { Virtud: 7, Firmamento: 5, Creación: 3, Destrucción: 1 }
+            points: { Virtud: 7, Firmamento: 5, Creación: 3, Liberación: 1 }
           },
           {
             text: "Mi flexibilidad para adaptarme a nuevas situaciones y aprender rápidamente.",
-            points: { Liberación: 7, Firmamento: 5, Creación: 3, Destrucción: 1 }
+            points: { Liberación: 7, Creación: 5, Firmamento: 3, Destrucción: 1 }
           },
           {
             text: "Mi habilidad para liderar y dirigir proyectos con una visión clara y estratégica.",
-            points: { Dominación: 7, Firmamento: 5, Abismo: 3, Pecado: 1 }
+            points: { Dominación: 7, Abismo: 5, Destrucción: 3, Pecado: 1 }
           },
           {
             text: "Mi capacidad para mantenerme motivado y mantenerme indiferente ante las críticas.",
-            points: { Destrucción: 7, Abismo: 5, Firmamento: 3, Pecado: 1 }
+            points: { Destrucción: 7, Virtud: 5, Liberación: 3, Pecado: 1 }
           }
         ]
       },
@@ -265,7 +265,7 @@ const questions = [
         options: [
           {
             text: "No tengo problema de estudiar y tengo una buena relación con mis maestros y compañeros.",
-            points: { Virtud: 7, Firmamento: 5, Creación: 3, Abismo: 1 }
+            points: { Virtud: 7, Liberación: 5, Creación: 3, Abismo: 1 }
           },
           {
             text: "No tengo ningún problema con el estudio, me esfuerzo por mantenerme al día con los avances en mi campo.",
@@ -273,15 +273,15 @@ const questions = [
           },
           {
             text: "La verdad es que el estudio simplemente no es lo mío.",
-            points: { Destrucción: 7, Pecado: 5, Liberación: 3, Abismo: 1 }
+            points: { Destrucción: 7, Pecado: 5, Liberación: 3, Creación: 1 }
           },
           {
             text: "Me va bien, por lo general me gusta aprender practicando lo aprendido y ser autodidacta.",
-            points: { Firmamento: 7, Virtud: 5, Creación: 3, Pecado: 1 }
+            points: { Firmamento: 7, Creación: 5, Creación: 3, Pecado: 1 }
           },
           {
             text: "A pesar de no ser un fan del estudio, soy responsable con los trabajos y trato de adaptarme a las exigencias.",
-            points: { Liberación: 7, Firmamento: 5, Creación: 3, Destrucción: 1 }
+            points: { Liberación: 7, Virtud: 5, Creación: 3, Destrucción: 1 }
           },
           {
             text: "A veces siento que el estudio es una carga y solo me esfuerzo lo suficiente para pasar los exámenes.",
@@ -294,11 +294,11 @@ const questions = [
         options: [
           {
             text: "Prefiero trabajar sin distracciones ni interrupciones. No tengo problema con la presión.",
-            points: { Firmamento: 7, Creación: 5, Virtud: 3, Pecado: 1 }
+            points: { Firmamento: 7, Liberación: 5, Destrucción: 3, Creación: 1 }
           },
           {
-            text: "Prefiero un entorno dinámico y flexible donde pueda adaptarme a diferentes tareas.",
-            points: { Creación: 7, Firmamento: 5, Liberación: 3, Abismo: 1 }
+            text: "Prefiero un entorno tranquilo y sin demasiadas existencias. donde pueda adaptarme a diferentes tareas en donde daré lo mejor de mí.",
+            points: { Creación: 7, Firmamento: 5, Liberación: 3, Virtud: 1 }
           },
           {
             text: "Me gusta trabajar bajo presión y en situaciones desafiantes.",
@@ -306,15 +306,15 @@ const questions = [
           },
           {
             text: "Me gusta mantener un entorno ordenado y ser productivo, además de orientar a mis compañeros cuando lo necesitan.",
-            points: { Liberación: 7, Firmamento: 5, Creación: 3, Destrucción: 1 }
+            points: { Liberación: 7, Virtud: 5, Creación: 3, Dominación: 1 }
           },   
           {
             text: "Prefiero un entorno donde pueda tomar el control y dirigir a otros.",
-            points: { Dominación: 7, Pecado: 5, Firmamento: 3, Abismo: 1 }
+            points: { Dominación: 7, Abismo: 5, Pecado: 3, Firmamento: 1 }
           },
           {
             text: "Prefiero un entorno colaborativo donde pueda interactuar y aprender de los demás.",
-            points: { Virtud: 7, Firmamento: 5, Creación: 3, Abismo: 1 }
+            points: { Virtud: 7, Creación: 5, Liberación: 3, Firmamento: 1 }
           }
         ]
       },         
@@ -323,11 +323,11 @@ const questions = [
             options: [
               {
                 text: "Cuando un familiar o amigo cercano cumple un objetivo.",
-                points: { Virtud: 7, Firmamento: 5, Creación: 3, Abismo: 1 }
+                points: { Virtud: 7, Liberación: 5, Firmamento: 3, Creación: 1 }
               },
               {
                 text: "Cuando un proyecto propio da los resultados esperados.",
-                points: { Creación: 7, Liberación: 5, Firmamento: 3, Destrucción: 1 }
+                points: { Creación: 7, Firmamento: 5, Liberación: 3, Destrucción: 1 }
               },
               {
                 text: "Superar un reto que parecía imposible y saber que podré superar los desafíos futuros.",
@@ -335,7 +335,7 @@ const questions = [
               },
               {
                 text: "Me inspira la oportunidad de hacer una diferencia positiva en el mundo",
-                points: { Liberación: 7, Firmamento: 5, Creación: 3, Abismo: 1 }
+                points: { Liberación: 7, Creación: 5, Creación: 3, Abismo: 1 }
               },
               {
                 text: "Ser reconocido por mis logros y habilidades.",
@@ -352,27 +352,27 @@ const questions = [
             options: [
               {
                 text: "Los cambios pueden ser desafiantes, pero trato de adaptarme manteniendo una actitud positiva.",
-                points: { Virtud: 7, Firmamento: 5, Creación: 3, Destrucción: 1 }
+                points: { Virtud: 7, Firmamento: 5, Liberación: 3, Destrucción: 1 }
               },
               {
                 text: "A veces encuentro difícil adaptarme a los cambios, pero trato de mantenerme flexible y abierto.",
-                points: { Creación: 7, Firmamento: 5, Liberación: 3, Abismo: 1 }
+                points: { Creación: 7, Liberación: 5, Destrucción: 3, Abismo: 1 }
               },
               {
                 text: "Prefiero la estabilidad y me siento incómodo con cambios inesperados o repentinos.",
-                points: { Abismo: 7, Dominación: 5, Firmamento: 3, Destrucción: 1 }
+                points: { Abismo: 7, Dominación: 5, Creación: 3, Destrucción: 1 }
               },
               {
                 text: "Veo los cambios como oportunidades para crecer y mejorar, y me adapto rápidamente a nuevas situaciones.",
-                points: { Liberación: 7, Firmamento: 5, Creación: 3, Destrucción: 1 }
+                points: { Liberación: 7, Virtud: 5, Creación: 3, Destrucción: 1 }
               },
               {
                 text: "Los cambios me desafían, pero a menudo los enfrento con una actitud crítica y analítica.",
-                points: { Dominación: 7, Pecado: 5, Firmamento: 3, Liberación: 1 }
+                points: { Dominación: 7, Pecado: 5, Creación: 3, Firmamento: 1 }
               },
               {
-                text: "Prefiero la estabilidad y la previsibilidad, pero puedo adaptarme a los cambios cuando es necesario.",
-                points: { Firmamento: 7, Virtud: 5, Creación: 3, Pecado: 1 }
+                text: "Prefiero la estabilidad, pero puedo adaptarme a los cambios cuando es necesario.",
+                points: { Firmamento: 7, Dominación: 5, Virtud: 3, Creación: 1 }
               }
             ]
           },          
@@ -381,7 +381,7 @@ const questions = [
             options: [
               {
                 text: "Me describen como alguien leal y siempre dispuesto a ayudar, alguien en quien pueden confiar.",
-                points: { Virtud: 7, Firmamento: 5, Creación: 3, Abismo: 1 }
+                points: { Virtud: 7, Firmamento: 5, Liberación: 3, Abismo: 1 }
               },
               {
                 text: "Me describen como alguien rencoroso y que a veces puede ser dominante en las decisiones.",
@@ -389,15 +389,15 @@ const questions = [
               },
               {
                 text: "Me ven como una persona creativa y llena de ideas, alguien que siempre busca nuevas formas de hacer las cosas.",
-                points: { Creación: 7, Firmamento: 5, Liberación: 3, Destrucción: 1 }
+                points: { Creación: 7, Virtud: 5, Firmamento: 3, Destrucción: 1 }
               },
               {
                 text: "Me consideran una persona adaptable y positiva, que enfrenta los desafíos con una actitud abierta.",
-                points: { Liberación: 7, Firmamento: 5, Creación: 3, Destrucción: 1 }
+                points: { Liberación: 7, Virtud: 5, Firmamento: 3, Creación: 1 }
               },
               {
                 text: "Me ven como alguien astuto y carismático, que siempre tiene un plan bien pensado y sabe cómo manejar las situaciones.",
-                points: { Firmamento: 7, Virtud: 5, Creación: 3, Pecado: 1 }
+                points: { Firmamento: 7, Liberación: 5, Virtud: 3, Abismo: 1 }
               },           
               {
                 text: "Me consideran una persona que a veces se siente abrumada y evita los conflictos cuando puede.",
@@ -414,15 +414,15 @@ const questions = [
               },
               {
                 text: "Veo el fracaso como una etapa normal en el camino hacia el éxito.",
-                points: { Liberación: 7, Firmamento: 5, Creación: 3, Destrucción: 1 }
+                points: { Liberación: 7, Firmamento: 5, Creación: 3, Virtud: 1 }
               },
               {
                 text: "Me tomo el tiempo para analizar la situación y ajustar mi enfoque para mejorar en el futuro.",
-                points: { Firmamento: 7, Virtud: 5, Liberación: 3, Pecado: 1 }
+                points: { Firmamento: 7, Virtud: 5, Liberación: 3, Creación: 1 }
               },
               {
                 text: "Me esfuerzo por reponerme rápidamente y buscar nuevas oportunidades para seguir adelante.",
-                points: { Creación: 7, Firmamento: 5, Dominación: 3, Destrucción: 1 }
+                points: { Creación: 7, Liberación: 5, Firmamento: 3, Dominación: 1 }
               },
               {
                 text: "A veces me siento desmotivado y necesito tiempo para volver a encontrar la inspiración para seguir adelante.",
@@ -430,7 +430,7 @@ const questions = [
               },
               {
                 text: "Enfrento el fracaso con determinación y trato de aplicar un enfoque más agresivo para revertir la situación.",
-                points: { Pecado: 7, Dominación: 5, Firmamento: 3, Destrucción: 1 }
+                points: { Pecado: 7, Dominación: 5, Liberación: 3, Destrucción: 1 }
               }
             ]
           },
@@ -439,30 +439,179 @@ const questions = [
             options: [
                 {
                     text: "Soy amable y cortés con todos, incluso con completos desconocidos.",
-                    points: { Virtud: 7, Liberación: 5, Creación: 3, Destrucción: 1 }
+                    points: { Virtud: 7, Liberación: 5, Firmamento: 3, Destrucción: 1 }
                 },
             {
-                text: "No hablo con extraños por mi timidez, pero soy muy hablador cuando gano confianza.",
-                    points: { Creación: 7, Firmamento: 5, Liberación: 3, Abismo: 1 }
+                text: "No hablo con extraños por mi timidez, pero soy muy hablador cuando gano confianza. O también como alguien callado y tranquilo.",
+                    points: { Creación: 7, Firmamento: 5, Virtud: 3, Abismo: 1 }
             },
             {
                 text: "Mi estilo de comunicación es directo y al grano; creo que la honestidad es fundamental.",
-                points: { Destrucción: 7, Pecado: 5, Liberación: 3, Firmamento: 1 }
+                points: { Destrucción: 7, Pecado: 5, Liberación: 3, Virtud: 1 }
             },
             {
                 text: "No suelo iniciar conversaciones, pero disfruto hablando y escuchando a los demás, incluso desconocidos.",
-                points: { Firmamento: 7, Virtud: 5, Liberación: 3, Pecado: 1 }
+                points: { Firmamento: 7, Virtud: 5, Creación: 3, Pecado: 1 }
             },
             {
                 text: "Inicio conversaciones hasta con extraños. Soy bastante hablador.",
-                points: { Liberación: 7, Creación: 5, Firmamento: 3, Dominación: 1 }
+                points: { Liberación: 7, Virtud: 5, Firmamento: 3, Dominación: 1 }
             },
             {
                 text: "Me fastidia cuando los extraños inician conversaciones abruptas conmigo.",
-                points: { Abismo: 7, Pecado: 5, Firmamento: 3, Destrucción: 1 }
+                points: { Abismo: 7, Pecado: 5, Creación: 3, Destrucción: 1 }
+              }
+            ]
+          },          
+          {
+
+            text: "¿Cómo eliges a tu pareja?",
+
+            options: [
+                {
+                    text: "Con tal que me ame y le tenga confianza, lo demas no importa.",
+                    points: { Virtud: 7, Creación: 5, Firmamento: 3, Liberación: 1 }
+                },
+            {
+                text: "Tengo gustos específicos sobre las personas. O, me da vergüenza confesar lo que siento.",
+                    points: { Creación: 7, Firmamento: 5, Abismo: 3, Liberación: 1 }
+            },
+            {
+                text: "Cuando alguien me gusta intento hablarle y no tengo vergüenza en confesar mi sentimientos.",
+                points: { Liberación: 7, Virtud: 5, Firmamento: 3, Dominación: 1 }
+            },
+            {
+                text: "Tengo gustos de apariencia y de éxito pero puedo dejarlos a un lado por amor.",
+                points: { Firmamento: 7, Liberación: 5, Virtud: 3, Pecado: 1 }
+            },
+            {
+                text: "No me gusta relacionarme con cualquiera.",
+                points: { Abismo: 7, Dominación: 5, Creación: 3, Firmamento: 1 }
+            },
+            {
+                text: "No estoy buscando nada por los momentos.",
+                points: { Destrucción: 7, Pecado: 5, Creación: 3, Abismo: 1 }
               }
             ]
           },
+                    {
+
+            text: "¿En que trabajas o te gustaría trabajar?",
+
+            options: [
+                {
+                    text: "Cosas de Arte. Como diseño gráfico o dibujos por encargo, por ejemplo. O cosas de comida, como chef, nutriólogo, panadero, o incluso fincas.",
+                    points: { Virtud: 7, Creación: 5, Liberación: 3, Destrucción: 1 }
+                },
+            {
+                text: "Con personas. Profesor, atención a cliente, ventas telefónicas o en orfanatos/ancianatos, por ejemplo.",
+                    points: { Liberación: 7, Virtud: 5, Creación: 3, Abismo: 1 }
+            },
+            {
+                text: "Cosas Abstractas. Programación, analisis de datos, control de sistemas, por ejemplo.",
+                points: { Firmamento: 7, Abismo: 5, Creación: 3, Dominación: 1 }
+            },
+            {
+                text: "Persona pública. Actor, músico, celebridad de Internet, político, por ejemplo O persona de leyes, como abogado o juez..",
+                points: { Liberación: 7, Virtud: 5, Firmamento: 3, Firmamento: 1 }
+            },
+            {
+                text: "En el area de salud. Medicina, odontología o Enfermería, por ejemplo",
+                points: { Firmamento: 7, Virtud: 5, Creación: 3, Liberación: 1 }
+            },
+            {
+                text: "No discrimino el trabajo, cualquier cosa me viene bien. O me gusta la compra y venta, no me molestaría tener mi propio negocio.",
+                points: { Creación: 7, Liberación: 5, Virtud: 3, Destrucción: 1 }
+              }
+            ]
+          },
+                    {
+            text: "¿Que opinas de las personas diferentes a ti? De otra nacionalidad o color, por ejemplo.",
+            options: [
+                {
+                    text: "Tengo amigos de todos los colores, tamaños y nacionalidades.",
+                    points: { Virtud: 7, Creación: 5, Liberación: 3, Pecado: 1 }
+                },
+            {
+                text: "A veces me siento incómodo en presencia de gente tan diferente y desconocida. Pero si tengo confianza con alguien no importa lo demás.",
+                    points: { Creación: 7, Liberación: 5, Virtud: 3, Firmamento: 1 }
+            },
+            {
+                text: "Admito tener ciertos prejuicios, pero no es un factor determinante. Gracias a internet he hecho amigos muy dispares.",
+                points: { Firmamento: 7, Pecado: 5, Creación: 3, Virtud: 1 }
+            },
+            {
+                text: "No me considero alguien prejuicioso, pero no me molestaría que hubieran mayores controles y restricciones. Control fronterizo, por ejemplo. Me parece hipócrita la inclusión forzada.",
+                points: { Liberación: 7, Firmamento: 5, Creación: 3, Pecado: 1 }
+            },
+            {
+                text: "Sinceramente siento desconfianza. No siento odio, pero cuido mis cosas en su presencia.",
+                points: { Pecado: 7, Destrucción: 5, Firmamento: 3, Virtud: 1 }
+            },
+            {
+                text: "Si vienen a trabajar esta bien, pero no se puede dejar entrar a cualquiera. Los controles fronterizos no son por prejuicios sino por seguridad.",
+                points: { Dominación: 7, Abismo: 5, Pecado: 3, Firmamento: 1 }
+              }
+            ]
+          },
+                    {
+            text: "¿Que clases de colores te gustan?",
+            options: [
+                {
+                    text: "Calidos y brillantes. Como el amarillo o el rojo.",
+                    points: { Virtud: 7, Pecado: 5, Creación: 3, Destrucción: 1 }
+                },
+            {
+                text: "Colores acogedores. Como el naranja, el marrón o el beige.",
+                    points: { Creación: 7, Destrucción: 5, Virtud: 3, Pecado: 1 }
+            },
+            {
+                text: "Colores armoniosos, como el verde o turquesa.",
+                points: { Liberación: 7, Dominación: 5, Firmamento: 3, Abismo: 1 }
+            },
+            {
+                text: "Colores neutros. Como el plateado o el gris.",
+                points: { Dominación: 7, Abismo: 5, Liberación: 3, Firmsmento: 1 }
+            },
+            {
+                text: "Colores fríos. Como el azul o morado.",
+                points: { Firmamento: 7, Abismo: 5, Liberación: 3, Dominación: 1 }
+            },
+            {
+                text: "Colores oscuros. Como el negro o el azul oscuro",
+                points: { Abismo: 7, Dominación: 5, Firmamento: 3, Liberación: 1 }
+              }
+            ]
+          },
+          {
+            text: "¿Cual crees que es tu mayor defecto?",
+            options: [
+              {
+                text: "Mi timidez e inseguridad. O mi falta de comunicación. Tal vez mi actitud a la vida.",
+                points: { Creación: 7, Firmamento: 5, Pecado: 3, Destrucción: 1 }
+                          },
+              {
+                text: "Mi falta de habilidades artísticas. O mi arrogancia.",
+                points: { Firmamento: 7, Liberación: 5, Abismo: 3, Pecado: 1 }
+                      },
+              {
+                text: "No se cuando decir que no. Se me dificulta darme a respetar.",
+                points: { Virtud: 7, Creación: 5, Destrucción: 3, Firmamento: 1 }
+                      },
+              {
+                text: "A veces me cuesta entender otros puntos de vista. O a veces me meto en problemas ajenos.",
+                points: { Liberación: 7, Virtud: 5, Pecado: 3, Creación: 1 }
+                      },
+              {
+                text: "Creo que a veces soy grosero. Tal vez tenga problemas de temperamento.",
+                points: { Pecado: 7, Destrucción: 5, Liberación: 3, Firmamento: 1 }
+                      },
+              {
+                text: "No sabria que decir.",
+                points: { Abismo: 7, Dominación: 5, Creación: 3, Destrucción: 1 }
+                        }
+                      ]
+          }
 ];
 
 
@@ -517,6 +666,7 @@ function checkIfAllAnswered() {
 }
 
 function calculateResults() {
+    const quizForm = document.getElementById('quiz-form');
     const formData = new FormData(quizForm);
     const scores = {
         Virtud: 0,
@@ -529,53 +679,68 @@ function calculateResults() {
         Abismo: 0
     };
 
-    formData.forEach((value) => {
-        const points = JSON.parse(value);
-        for (let type in points) {
-            scores[type] += points[type];
+    // Recolectar y sumar las puntuaciones
+    formData.forEach((value, key) => {
+        try {
+            const points = JSON.parse(value); // Asegúrate de que el valor sea JSON válido
+            for (let type in points) {
+                if (scores.hasOwnProperty(type)) {
+                    scores[type] += points[type];
+                }
+            }
+        } catch (error) {
+            console.error('Error al procesar los datos del formulario:', error);
         }
     });
 
+    console.log('Puntuaciones:', scores); // Mensaje de depuración
+
+    // Actualizar los números de puntuaciones existentes
+    const scoreElements = {
+        Virtud: document.getElementById('score-virtue'),
+        Pecado: document.getElementById('score-sin'),
+        Creación: document.getElementById('score-creation'),
+        Destrucción: document.getElementById('score-destruction'),
+        Liberación: document.getElementById('score-liberation'),
+        Dominación: document.getElementById('score-domination'),
+        Firmamento: document.getElementById('score-firmament'),
+        Abismo: document.getElementById('score-abyss')
+    };
+
+    for (let type in scores) {
+        if (scoreElements[type]) {
+            scoreElements[type].textContent = scores[type];
+        }
+    }
+
+    // Determinar el mago con base en las puntuaciones
     let maxScore = 0;
-    let minScore = Infinity;
     let mago = '';
-    let maxScoreCount = 0;
 
     for (let type in scores) {
         if (scores[type] > maxScore) {
             maxScore = scores[type];
             mago = type;
         }
-        if (scores[type] < minScore) {
-            minScore = scores[type];
-        }
     }
 
-    // Determine if scores are balanced within a threshold
-    const threshold = 5;  // Define an appropriate threshold for balance
+    const threshold = 5;
     const balanced = Object.values(scores).every(score => (maxScore - score) <= threshold);
 
-    // Check specific conditions for each type
     const highScores = ['Virtud', 'Creación', 'Liberación', 'Firmamento'];
     const isHighScore = (type) => highScores.every(highScore => (scores[type] - scores[highScore]) <= 10);
 
-    if (mago === 'Pecado' && isHighScore('Pecado')) {
-        mago = 'Virtud';
-    } else if (mago === 'Destrucción' && isHighScore('Destrucción')) {
-        mago = 'Creación';
-    } else if (mago === 'Dominación' && isHighScore('Dominación')) {
-        mago = 'Liberación';
-    } else if (mago === 'Abismo' && isHighScore('Abismo')) {
-        mago = 'Firmamento';
-    }
-
-    // Handle the neutral case if all scores are relatively balanced
     if (balanced) {
         mago = 'Neutral';
     }
 
-    resultDiv.innerText = `¡Eres un mago de tipo: ${mago}!`;
-    displayResult(mago);
+    const resultDiv = document.getElementById('result');
+    if (resultDiv) {
+        resultDiv.innerText = `¡Eres un mago de tipo: ${mago}!`;
+        displayResult(mago); // Asegúrate de que esta función esté definida en tu código
+    } else {
+        console.error('No se encontró el contenedor de resultados.');
+    }
 }
 
 
@@ -686,7 +851,9 @@ function displayResult(resultType) {
 }
 
 function switchToQuizScreen() {
+
     welcomeContainer.style.display = 'none';
+
     quizContainer.style.display = 'block';
     quizTitle.innerText = `¿Qué clase de mago eres, ${localStorage.getItem('userName')}?`;
 }
@@ -696,7 +863,6 @@ function switchToResultScreen() {
     resultContainer.style.display = 'block';
     window.scrollTo(0, 0); // Desplaza la página a la parte superior
 }
-
 
 function switchToWelcomeScreen() {
     resultContainer.style.display = 'none';
