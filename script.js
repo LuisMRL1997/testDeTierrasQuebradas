@@ -15,7 +15,7 @@ const questions = [
             points: { Creación: 7, Firmamento: 5, Virtud: 3, Abismo: 1 }
           },
           {
-            text: "Enfrento el problema directamente con mi amigo, buscando una solución a través de la conversación.",
+            text: "Busco llegar a un acuerdo dialogando. Hablando todos podemos entendernos",
             points: { Liberación: 7, Virtud: 5, Dominación: 3, Pecado: 1 }
           },
           {
@@ -110,7 +110,7 @@ const questions = [
             points: { Abismo: 7, Dominación: 5, Firmamento: 3, Creación: 1 }
           },
           {
-            text: "Actúo como mediador para resolver conflictos y mantener la armonía en el equipo.",
+            text: "Sirvo de guía en los proyectos y al haber algun problema. A veces instruyo s los novatos.",
             points: { Liberación: 7, Firmamento: 5, Dominación: 3, Abismo: 1 }
           }
         ]
@@ -164,7 +164,7 @@ const questions = [
             points: { Abismo: 7, Destrucción: 5, Creación: 3, Dominación: 1 }
           },
           {
-            text: "Disfruto de hacer ejercicio y salir a un bar con mis amigos.",
+            text: "Me gusta practicar algun deporte, hacer natación, ir al gimnasio, salir a trotar y/o practicar yoga. También puedo disfrutar de salir con amigos a alguna fiesta.",
             points: { Liberación: 7, Creación: 5, Virtud: 3, Destrucción: 1 }
           },
           {
@@ -189,7 +189,7 @@ const questions = [
             points: { Virtud: 7, Firmamento: 5, Creación: 3, Pecado: 1 }
           },
           {
-            text: "Enfrento los problemas directamente y me adapto a las circunstancias.",
+            text: "Creo que lo mejor es no evadir los problemas para que no se acumulen y sentirme más libre .",
             points: { Liberación: 7, Virtud: 5, Dominación: 3, Destrucción: 1 }
           },
           {
@@ -206,11 +206,11 @@ const questions = [
         text: "¿Qué tipo de películas prefieres?",
         options: [
           {
-            text: "Comedias y Románticas. En general películas relajantes.",
+            text: "Comedias, películas románticas y/o musicales. En general películas relajantes.",
             points: { Virtud: 7, Liberación: 5, Creación: 3, Firmamento: 1 }
           },
           {
-            text: "Fantasía y ciencia ficción.",
+            text: "Fantasía y ciencia ficción. Peliculas épicas",
             points: { Creación: 7, Firmamento: 5, Destrucción: 3, Pecado: 1 }
           },
           {
@@ -218,12 +218,12 @@ const questions = [
             points: { Destrucción: 7, Creación: 5, Pecado: 3, Abismo: 1 }
           },
           {
-            text: "Películas llenas de acción y aventuras emocionantes.",
+            text: "Películas de acción y aventuras. Peliculas de súper héroes. Plículas históricas o biográficas.",
             points: { Liberación: 7, Creación: 5, Virtud: 3, Destrucción: 1 }
           },
           {
-            text: "Thrillers y películas de misterio.",
-            points: { Firmamento: 7, Creación: 5, Liberación: 3, Abismo: 1 }
+            text: "Peliculas de detectives o películas de misterio.",
+            points: { Firmamento: 7, Virtud: 5, Liberación: 3, Abismo: 1 }
           },
           {
             text: "Películas de terror que me mantienen en tensión y desafío mis miedos.",
@@ -247,7 +247,7 @@ const questions = [
             points: { Virtud: 7, Firmamento: 5, Creación: 3, Liberación: 1 }
           },
           {
-            text: "Mi flexibilidad para adaptarme a nuevas situaciones y aprender rápidamente.",
+            text: "Que soy responsable con lo que me propongo y no tengo miedo de empezar proyectos aunque otros no crean en mi.", 
             points: { Liberación: 7, Creación: 5, Firmamento: 3, Destrucción: 1 }
           },
           {
@@ -392,7 +392,7 @@ const questions = [
                 points: { Creación: 7, Virtud: 5, Firmamento: 3, Destrucción: 1 }
               },
               {
-                text: "Me consideran una persona adaptable y positiva, que enfrenta los desafíos con una actitud abierta.",
+                text: "Me consideran una persona adaptable y positiva, que enfrenta los desafíos con una actitud abierta. Que no deja que las criticas de los demas le afecten.",
                 points: { Liberación: 7, Virtud: 5, Firmamento: 3, Creación: 1 }
               },
               {
@@ -477,7 +477,7 @@ const questions = [
                     points: { Creación: 7, Firmamento: 5, Abismo: 3, Liberación: 1 }
             },
             {
-                text: "Cuando alguien me gusta intento hablarle y no tengo vergüenza en confesar mi sentimientos.",
+                text: "Cuando alguien me gusta intento hablarle. Si nos llevamos bien, no tengo vergüenza en confesar mi sentimientos.",
                 points: { Liberación: 7, Virtud: 5, Firmamento: 3, Dominación: 1 }
             },
             {
@@ -628,7 +628,7 @@ const questions = [
                 points: { Firmamento: 7, Pecado: 5, Virtud: 3, Creación: 1 }
                                 },
               {
-                text: "A veces lo intento, pero me gusta mucho la verdad.",
+                text: "A veces lo intento, pero no me gusta mucho la verdad.",
                 points: { Creación: 7, Firmamento: 5, Destrucción: 3, Abismo: 1 }
                                 },
               {
@@ -686,7 +686,7 @@ const questions = [
                 points: { Firmamento: 7, Creación: 5, Liberación: 3, Virtud: 1 }
                                           },
               {
-                text: "No siempre lo leo, pero si logro identificarme y creo en eso.",
+                text: "No siempre lo leo, pero si me identifico y creo en eso.",
                 points: { Liberación: 7, Virtud: 5, Firmamento: 3, Pecado: 1 }
                                           },
               {
@@ -729,7 +729,7 @@ const questions = [
               {
                 text: "Siento tristeza por los enfermos y discapacitados. Los mendigos podrian ponerse a trabajar.",
                 points: { Liberación: 7, Virtud: 5, Firmamento: 3, Pecado: 1 }
-                                                    },
+                                                   },
               {
                 text: "Suelo ayudar a los necesitados si está en mis posibilidades.",
                 points: { Virtud: 7, Liberación: 5, Firmamento: 3, Creación: 1 }
@@ -802,7 +802,6 @@ function checkIfAllAnswered() {
 }
 
 function calculateResults() {
-    const quizForm = document.getElementById('quiz-form');
     const formData = new FormData(quizForm);
     const scores = {
         Virtud: 0,
@@ -815,48 +814,37 @@ function calculateResults() {
         Abismo: 0
     };
 
-    // Recolectar y sumar las puntuaciones
-    formData.forEach((value, key) => {
-        try {
-            const points = JSON.parse(value); // Asegúrate de que el valor sea JSON válido
-            for (let type in points) {
-                if (scores.hasOwnProperty(type)) {
-                    scores[type] += points[type];
-                }
-            }
-        } catch (error) {
-            console.error('Error al procesar los datos del formulario:', error);
+    formData.forEach((value) => {
+        const points = JSON.parse(value);
+        for (let type in points) {
+            scores[type] += points[type];
         }
     });
 
     console.log('Puntuaciones:', scores); // Mensaje de depuración
 
-    // Actualizar los números de puntuaciones existentes
-    const scoreElements = {
-        Virtud: document.getElementById('score-virtue'),
-        Pecado: document.getElementById('score-sin'),
-        Creación: document.getElementById('score-creation'),
-        Destrucción: document.getElementById('score-destruction'),
-        Liberación: document.getElementById('score-liberation'),
-        Dominación: document.getElementById('score-domination'),
-        Firmamento: document.getElementById('score-firmament'),
-        Abismo: document.getElementById('score-abyss')
-    };
+    // Actualiza los puntajes en el contenedor
+    document.getElementById('score-virtue').innerText = scores['Virtud'];
+    document.getElementById('score-sin').innerText = scores['Pecado'];
+    document.getElementById('score-creation').innerText = scores['Creación'];
+    document.getElementById('score-destruction').innerText = scores['Destrucción'];
+    document.getElementById('score-liberation').innerText = scores['Liberación'];
+    document.getElementById('score-domination').innerText = scores['Dominación'];
+    document.getElementById('score-firmament').innerText = scores['Firmamento'];
+    document.getElementById('score-abyss').innerText = scores['Abismo'];
 
-    for (let type in scores) {
-        if (scoreElements[type]) {
-            scoreElements[type].textContent = scores[type];
-        }
-    }
-
-    // Determinar el mago con base en las puntuaciones
     let maxScore = 0;
+    let minScore = Infinity;
     let mago = '';
+    let maxScoreCount = 0;
 
     for (let type in scores) {
         if (scores[type] > maxScore) {
             maxScore = scores[type];
             mago = type;
+        }
+        if (scores[type] < minScore) {
+            minScore = scores[type];
         }
     }
 
@@ -870,14 +858,10 @@ function calculateResults() {
         mago = 'Neutral';
     }
 
-    const resultDiv = document.getElementById('result');
-    if (resultDiv) {
-        resultDiv.innerText = `¡Eres un mago de tipo: ${mago}!`;
-        displayResult(mago); // Asegúrate de que esta función esté definida en tu código
-    } else {
-        console.error('No se encontró el contenedor de resultados.');
-    }
+    resultDiv.innerText = `¡Eres un mago de tipo: ${mago}!`;
+    displayResult(mago);
 }
+
 
 
 function displayResult(resultType) {
