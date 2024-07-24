@@ -15,7 +15,7 @@ const questions = [
             points: { Creación: 7, Firmamento: 5, Virtud: 3, Abismo: 1 }
           },
           {
-            text: "Busco llegar a un acuerdo dialogando. Hablando todos podemos entendernos",
+            text: "Busco llegar a un acuerdo dialogando. Hablando todos podemos entendernos.",
             points: { Liberación: 7, Virtud: 5, Dominación: 3, Pecado: 1 }
           },
           {
@@ -620,11 +620,11 @@ const questions = [
                 points: { Virtud: 7, Firmamento: 5, Liberación: 3, Dominación: 1 }
                                     },
               {
-                text: "Hago dietas saludables y tengo un cronograma de actividades fisicas diarias",
+                text: "Hago dietas saludables y hago rutinas de actividades fisicas diarias",
                 points: { Liberación: 7, Virtud: 5, Abismo: 3, Destrucción: 1 }
                                 },
               {
-                text: "Intento comer saludable y de vez en cuando me ejercito, lo hago porque se que es saludable.",
+                text: "Intento comer variado y de vez en cuando me ejercito, lo hago porque se que es saludable.",
                 points: { Firmamento: 7, Pecado: 5, Virtud: 3, Creación: 1 }
                                 },
               {
@@ -636,7 +636,7 @@ const questions = [
                 points: { Dominación: 7, Abismo: 5, Liberación: 3, Virtud: 1 }
                                 },
               {
-                text: "No se, nunca pienso en eso la verdad.",
+                text: "No se, nunca pienso en eso.",
                 points: { Destrucción: 7, Pecado: 5, Creación: 3, Firmamento: 1 }
                                   }
                                 ]
@@ -652,6 +652,10 @@ const questions = [
                 text: "Soy bastante extrovertido y me resulta fácil hacer amigos.",
                 points: { Liberación: 7, Virtud: 5, Abismo: 3, Destrucción: 1 }
                                 },
+                                 {
+                                   text: "En pocas personas se puede confiar.",
+                                   points: { Destrucción: 7, Pecado: 5, Creación: 3, Firmamento: 1 }
+                                 },
               {
                 text: "Soy carismático y agradable. Tengo varios amigos pero no soy el alma de la fiesta.",
                 points: { Firmamento: 7, Liberación: 5, Virtud: 3, Dominación: 1 }
@@ -660,10 +664,7 @@ const questions = [
                 text: "Soy bueno para escuchar y la gente confia en mi para desahogarse. Pero no me considero demasiado extrovertido.",
                 points: { Virtud: 7, Firmamento: 5, Liberación: 3, Creación: 1 }
                                 },
-              {
-                text: "En pocas personas se puede confiar.",
-                points: { Destrucción: 7, Pecado: 5, Creación: 3, Firmamento: 1 }
-                                },
+             
               {
                 text: "Soy bastante extrovertido y amigo de todos. Suelo ser el centro de atención .",
                 points: { Dominación: 7, Abismo: 5, Liberación: 3, Firmamento: 1 }
@@ -685,6 +686,12 @@ const questions = [
                 text: "De vez en cuando lo leo, por curiosidad o comparar con amigos, pero no creo en nada de eso.",
                 points: { Firmamento: 7, Creación: 5, Liberación: 3, Virtud: 1 }
                                           },
+                                          {
+
+                text: "Los leo a diario y tal vez me dejo guiar por ellos.",
+
+                points: { Pecado: 7, Destrucción: 5, Virtud: 3, Liberación: 1 }
+                                            },
               {
                 text: "No siempre lo leo, pero si me identifico y creo en eso.",
                 points: { Liberación: 7, Virtud: 5, Firmamento: 3, Pecado: 1 }
@@ -692,11 +699,8 @@ const questions = [
               {
                 text: "Son puras estupideces.",
                 points: { Dominación: 7, Abismo: 5, Firmamento: 3, Creación: 1 }
-                                          },
-              {
-                text: "Los leo a diario y tal vez me dejo guiar por ellos.",
-                points: { Pecado: 7, Destrucción: 5, Virtud: 3, Liberación: 1 }
-                                            }
+                                          }
+              
                                           ]
           },
           {
@@ -730,6 +734,10 @@ const questions = [
                 text: "Siento tristeza por los enfermos y discapacitados. Los mendigos podrian ponerse a trabajar.",
                 points: { Liberación: 7, Virtud: 5, Firmamento: 3, Pecado: 1 }
                                                    },
+                                                   {
+                                                     text: "Yo no les intereso, ¿porque debería hacerlo yo?.",
+                                                     points: { Dominación: 7, Pecado: 5, Abismo: 3, Creación: 1 }
+                                                   },
               {
                 text: "Suelo ayudar a los necesitados si está en mis posibilidades.",
                 points: { Virtud: 7, Liberación: 5, Firmamento: 3, Creación: 1 }
@@ -742,11 +750,39 @@ const questions = [
                 text: "Dono las cosas que me sobran o no necesito, en lugar de botarlas.",
                 points: { Virtud: 7, Firmamento: 5, Liberación: 3, Creación: 1 }
                                                     },
-              {
-                text: "Yo no les intereso, ¿porque debería hacerlo yo?.",
-                points: { Dominación: 7, Pecado: 5, Abismo: 3, Creación: 1 }
-                                                      }
+              
                                                     ]
+          },  
+          {
+
+            text: "¿A donde te gusta viajar?",
+
+            options: [
+              {
+                text: "Me gusta visitar paises extranjeros.",
+                points: { Liberación: 7, Firmamento: 5, Virtud: 3, Creación: 1 }
+                                    },
+                                    {
+                                      text: "Prefiero ahorrar el dinero.",
+                                      points: { Destrucción: 7, Pecado: 5, Creación: 3, Virtud: 1 }
+                                    },
+              {
+                text: "Me gusta ir a la playa. O me gusta ir a excursiones, caminatas o campamentos, en montañas o bosques.",
+                points: { Virtud: 7, Liberación: 5, Creación: 3, Destrucción: 1 }
+                                },
+              {
+                text: "Me gusta ir a parques de diversiones o grandes centros de entretenimiento. O me gusta visitar grandes ciudades.",
+                points: { Firmamento: 7, Creación: 5, Liberación: 3, Abismo: 1 }
+                                },
+                                {
+                                  text: "Prefiero visitar centros de estudio lejanos o caros que me ayuden a progresar.",
+                                  points: { Dominación: 7, Destrucción: 5, Abismo: 3, Creación: 1 }
+                                },
+              {
+                text: "Me gusta visitar a mis familiares que viven en sitios lejanos a mi hogar. O me gusta visitar sitios con valos histórico o cultural.",
+                points: { Creación: 7, Virtud: 5, Firmamento: 3, Liberación: 1 }
+                                }
+                                ]
           }
 ];
 
