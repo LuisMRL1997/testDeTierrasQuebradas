@@ -476,8 +476,6 @@ button:active {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
-
-
 #result-title {
     font-size: 2.5em;
     margin-bottom: 10px;
@@ -562,12 +560,14 @@ button:active {
     padding: 10px;
     margin: 10px 0;
     border-radius: 5px;
+    color: black;
 }
 
 .score {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
+    color: black;
 }
 
 .score span {
@@ -586,41 +586,50 @@ button:active {
 }
 
 .virtue::before {
+  color: black;
     background-color: gold;
     box-shadow: 0 0 10px rgba(255, 215, 0, 0.5), 0 0 20px rgba(255, 215, 0, 0.3), 0 0 30px rgba(255, 215, 0, 0.2);
 }
 
 .sin::before {
+  color: black;
     background-color: red;
     box-shadow: 0 0 10px rgba(255, 0, 0, 0.5), 0 0 20px rgba(255, 0, 0, 0.3), 0 0 30px rgba(255, 0, 0, 0.2);
 }
 
 .creation::before {
+  color: black;
     background-color: orange;
     box-shadow: 0 0 10px rgba(255, 165, 0, 0.5), 0 0 20px rgba(255, 165, 0, 0.3), 0 0 30px rgba(255, 165, 0, 0.2);
 }
 
 .destruction::before {
+  color: black;
     background-color: brown;
     box-shadow: 0 0 10px rgba(165, 42, 42, 0.5), 0 0 20px rgba(165, 42, 42, 0.3), 0 0 30px rgba(165, 42, 42, 0.2);
 }
 
 .liberation::before {
+  color: black;
     background-color: mediumseagreen;
     box-shadow: 0 0 10px rgba(60, 179, 113, 0.5), 0 0 20px rgba(60, 179, 113, 0.3), 0 0 30px rgba(60, 179, 113, 0.2);
 }
 
 .domination::before {
+  color: black;
+  color: black;
     background-color: silver;
     box-shadow: 0 0 10px rgba(192, 192, 192, 0.5), 0 0 20px rgba(192, 192, 192, 0.3), 0 0 30px rgba(192, 192, 192, 0.2);
 }
 
 .firmament::before {
+  color: black;
     background-color: navy;
     box-shadow: 0 0 10px rgba(0, 0, 128, 0.5), 0 0 20px rgba(0, 0, 128, 0.3), 0 0 30px rgba(0, 0, 128, 0.2);
 }
 
 .abyss::before {
+  color: black;
     background-color: purple;
     box-shadow: 0 0 10px rgba(128, 0, 128, 0.5), 0 0 20px rgba(128, 0, 128, 0.3), 0 0 30px rgba(128, 0, 128, 0.2);
 }
